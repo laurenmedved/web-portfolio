@@ -1,0 +1,218 @@
+/*-----------GENERAL------------*/
+body {
+    margin: 0;
+    font-family: 'Alegreya', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Secular One', sans-serif;
+    font-weight: normal;
+    margin: 0;
+  }
+h1{ 
+    font-size: 42px;
+    margin:0;
+    color: white;
+}
+h2 {
+    font-size: 28px;
+}
+/*---------Navbar---------------*/
+nav { 
+    display: flex;
+}
+a.navlink{ 
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: black;
+}
+a.navlink:hover{ 
+    color: #F15C5E;
+}
+#logo { 
+    margin-left: 20px;
+    max-height: 50px;
+}
+div#nav {
+    margin: auto;
+    background-color: white;
+    max-width: 1500px;
+}
+div#navlinks {
+    margin: auto;
+    margin-right: 20px;
+    background-color: white;
+}
+/*--------------Footer---------------*/
+footer{
+    background-color: #001D1E;
+    height: 75px;
+}
+.footertext{ 
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+}
+a.footertext:hover{ 
+    color: #F15C5E;
+}
+div#footerlinks {
+    margin: auto;
+    padding: 25px;
+}
+/*--------------INDEX---------------*/
+#webportfolio{
+    color: #F15C5E;
+}
+#iconfloat{
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    z-index: 1;
+    background-color: #06191E;
+    border-radius: 50%;
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+}
+#linkedin{
+    float: right;
+    border-radius: 40%;
+    max-height: 32px;
+}
+.mainheader { 
+    display: flex;
+    padding: 75px 75px;
+    background: #093B4D linear-gradient(180deg, rgba(0,39,51,1) 0%, rgba(0,71,92,1) 100%);
+    background-image: url("images/linebackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+#minime { 
+    min-width: 25%;
+    max-width: 22%;
+    height: 100%;
+    padding-right: 75px;
+}
+p#intro{ 
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+a#calltoaction {
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    font-size: 24px;
+    border-left: solid 15px #F15C5E;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a#biglink {
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    font-size: 18px;
+    border-left: solid 10px #65CCEC;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+a#calltoaction:hover {
+    background-color: #f05b5d94;
+}
+a#biglink:hover {
+    background-color: #E5FEFF; 
+}
+p#intro2{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#tabletimage{
+    position: relative;
+    right: 0;
+    max-height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*--------------ABOUT---------------*/
+.skillcard{
+    margin-right: 50px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: #E5FEFF;
+}
+.carditem{
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #093B4D;
+    font-size: 24px;
+}
+/*--------------Universal Classes---------------*/
+div.plainbox{
+    padding: 25px 50px 0px 75px;
+}
+.white { 
+    color: #FFFFFF;
+}
+.offwhite { 
+    color: #BACBCF;
+}
+.offblack { 
+    color: #3E3E3E;
+}
+.pink { 
+    color: #E32C2E;
+}
+.darkblue {
+    color: #093B4D;
+}
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+  }
+.pageheader { 
+    display: flex;
+    padding: 25px 25px;
+    background: #093B4D linear-gradient(180deg, rgba(0,39,51,1) 0%, rgba(0,71,92,1) 100%);
+    background-image: url("images/linebackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50px;
+    max-width: 1500px;
+    margin: auto;
+}
+/*--------------Media Queries---------------*/
+@media screen and (max-width: 1120px) {
+    h1#welcome { 
+        font-size: 32px;
+        margin:0;
+        color: white;
+    }
+    p#intro{ 
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    a#calltoaction {
+        vertical-align: baseline;
+        text-decoration: none;
+        font-family: 'Secular One', sans-serif;
+        font-size: 18px;
+        border-left: solid 15px #F15C5E;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
