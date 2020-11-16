@@ -14,7 +14,7 @@ h1{
     color: white;
 }
 h2 {
-    font-size: 28px;
+    font-size: 36px;
 }
 /*---------Navbar---------------*/
 nav { 
@@ -151,15 +151,20 @@ p#intro2{
     background-color: #E5FEFF;
 }
 .carditem{
+    display: inline-block;
     border-radius: 12px;
-    padding: 5px;
+    padding: 5px 40px;
+    margin: 12px;
     background-color: #ffffff;
     color: #093B4D;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;  
     font-size: 24px;
 }
 /*--------------Universal Classes---------------*/
 div.plainbox{
-    padding: 25px 50px 0px 75px;
+    padding: 25px 50px 25px 50px;
 }
 .white { 
     color: #FFFFFF;
@@ -178,10 +183,13 @@ div.plainbox{
 }
 .row {
     display: flex;
+    padding-bottom: 25px;
   }
   
 .column {
     flex: 50%;
+    padding: 50px;
+    padding-right: 0px;
   }
 .pageheader { 
     display: flex;
