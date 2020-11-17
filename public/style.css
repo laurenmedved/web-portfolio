@@ -151,8 +151,10 @@ p#textbox{
 #tabletimage{
     position: relative;
     right: 0;
-    padding-bottom: 30px;
-    max-height: 200px;
+    max-height: 175px; 
+}
+#tabletcolumn{
+  padding-bottom: 0px;  
 }
 
 /*--------------ABOUT---------------*/
@@ -243,4 +245,7 @@ div.plainbox{
         font-size: 18px;
         padding: 5px 40px;
     }
+    #tabletcolumn{
+        padding-top: 75px;  
+      }
 }
