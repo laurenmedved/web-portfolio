@@ -1,39 +1,42 @@
 /*-----------GENERAL------------*/
 body {
     margin: 0;
-    font-family: 'Alegreya', sans-serif;
+    font-family: 'Lato', serif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Fredoka One', sans-serif;
     font-weight: normal;
     margin: 0;
   }
 h1{ 
     font-size: 42px;
+    letter-spacing: 3px;
     margin:0;
     color: white;
 }
 h2 {
-    font-size: 36px;
+    font-size: 32px;
+    letter-spacing: 2px;
 }
 /*---------Navbar---------------*/
 nav { 
     display: flex;
+    padding: 5px 20px;
 }
 a.navlink{ 
     font-size: 12px;
     text-decoration: none;
-    font-family: 'Secular One', sans-serif;
-    padding-top: 10px;
+    font-family: 'Fredoka One', sans-serif;
+    letter-spacing: 1px;
     padding-left: 20px;
     color: black;
 }
 a.navlink:hover{ 
-    color: #F15C5E;
+    color: #0055ff;
 }
 #logo { 
-    margin-left: 20px;
-    max-height: 50px;
+    margin-top: 5px;
+    max-height: 30px;
 }
 div#nav {
     margin: auto;
@@ -42,24 +45,25 @@ div#nav {
 }
 div#navlinks {
     margin: auto;
-    margin-right: 20px;
+    margin-right: 1px;
     background-color: white;
 }
 /*--------------Footer---------------*/
 footer{
-    background-color: #001D1E;
-    height: 75px;
+    background-color: #000F28;
+    height: 80px;
 }
 .footertext{ 
     font-size: 15px;
     text-decoration: none;
-    font-family: 'Secular One', sans-serif;
-    padding-top: 10px;
+    font-family: 'Fredoka One', sans-serif;
+    letter-spacing: 1px;
+
     padding-left: 20px;
     color: white;
 }
 a.footertext:hover{ 
-    color: #F15C5E;
+    color: #FAAA61;
 }
 div#footerlinks {
     margin: auto;
@@ -67,14 +71,14 @@ div#footerlinks {
 }
 /*--------------INDEX---------------*/
 #webportfolio{
-    color: #F15C5E;
+    color: #FAAA61;
 }
 #iconfloat{
     position: fixed;
     right: 5px;
     bottom: 10px;
     z-index: 1;
-    background-color: #001D1E;
+    background-color: #000F28;
     border-radius: 50%;
     padding: 10px;
     width: 32px;
@@ -93,7 +97,6 @@ div#footerlinks {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100px;
-    max-width: 1500px;
     margin: auto;
     margin-bottom: 25px;
 }
@@ -106,34 +109,39 @@ div#footerlinks {
 p#intro{ 
     padding-bottom: 20px;
     font-size: 24px;
+    line-height: 40px;
 }
 a#calltoaction {
     vertical-align: baseline;
     text-decoration: none;
-    font-family: 'Secular One', sans-serif;
+    border-radius: 5px;
+    font-family: 'Fredoka One', sans-serif;
+    letter-spacing: 1px;
     font-size: 24px;
-    border-left: solid 15px #F15C5E;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 5px 40px;
+    margin: 0px;
+    border-bottom: solid 10px #E57611;
+    background-color: #FAAA61;
 }
 a#biglink {
     vertical-align: baseline;
     text-decoration: none;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Fredoka One', sans-serif;
+    letter-spacing: 1px;
     font-size: 18px;
-    border-left: solid 10px #65CCEC;
-    padding-left: 15px;
-    padding-right: 15px;  
+    border-bottom: solid 5px #0055ff;
 }
-a#calltoaction:hover {
-    background-color: #f05b5d94;
+a#calltoaction:active {
+    position: relative;
+    top: 5px;
+    border-bottom: solid 5px #E57611;
 }
 a#biglink:hover {
-    background-color: #E5FEFF; 
+    color: #0049da; 
 }
 p#intro2{
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 #tabletimage{
     position: relative;
@@ -144,23 +152,30 @@ p#intro2{
 }
 /*--------------ABOUT---------------*/
 .skillcard{
+    position: relative;
+    right: 1px;
     margin-right: 50px;
     margin-bottom: 25px;
     border-radius: 30px;
     padding: 30px;
-    background-color: #E5FEFF;
+    background-color: #FAAA61;
+    border-bottom: solid 5px #E57611;
+    max-width: 450px;
 }
 .carditem{
     display: inline-block;
     border-radius: 12px;
-    padding: 5px 40px;
-    margin: 12px;
-    background-color: #ffffff;
-    color: #093B4D;
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #ffd7b1;
+    border-top: solid 3px #E57611;
+    color: #052460;
     text-align: center;
     vertical-align: middle;
-    line-height: 40px;  
-    font-size: 24px;
+    line-height: 30px;  
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 /*--------------Universal Classes---------------*/
 div.plainbox{
@@ -176,10 +191,13 @@ div.plainbox{
     color: #3E3E3E;
 }
 .pink { 
-    color: #E32C2E;
+    color: #E57611;
+}
+.black {
+    color: #000;
 }
 .darkblue {
-    color: #093B4D;
+    color: #052460;
 }
 .row {
     display: flex;
@@ -216,10 +234,7 @@ div.plainbox{
     a#calltoaction {
         vertical-align: baseline;
         text-decoration: none;
-        font-family: 'Secular One', sans-serif;
         font-size: 18px;
-        border-left: solid 15px #F15C5E;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 5px 40px;
     }
 }
