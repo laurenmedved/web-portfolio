@@ -146,8 +146,7 @@ p#intro2{
 #tabletimage{
     position: relative;
     right: 0;
-    max-height: 500px;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 /*--------------ABOUT---------------*/
