@@ -162,10 +162,12 @@ p#textbox{
 #contactcard{
     background-color: #ffead6;
     max-width: 450px;
+    margin-left: 0px;
+    border-bottom: solid 7px #FAAA61;
 }
 #contactitem{
     background-color: #ffffff;
-    border-top: solid 4px #eea15a;
+    border-top: solid 4px #FAAA61;
 }
 /*--------------ABOUT---------------*/
 #aboutme{
