@@ -19,6 +19,10 @@ h2 {
     font-size: 32px;
     letter-spacing: 2px;
 }
+h3 {
+    letter-spacing: 1px;
+    font-size: 24px;
+}
 /*---------Navbar---------------*/
 nav { 
     display: flex;
@@ -103,9 +107,8 @@ div#footerlinks {
 #minime { 
     position: relative;
     top: .5em;
-    max-width: 15em;
-    padding-left: 25%;
-    padding-right: 25%;
+    min-width: 15em;
+    padding-right: 75px;
 }
 p#intro{ 
     padding-bottom: 20px;
@@ -141,7 +144,7 @@ a#calltoaction:active {
 a.link:hover {
     color: #0049da; 
 }
-p#intro2{
+p#textbox{
     font-size: 18px;
     margin-bottom: 25px;
 }
@@ -150,8 +153,9 @@ p#intro2{
     right: 0;
     padding-bottom: 30px;
 }
+
 /*--------------ABOUT---------------*/
-.skillcard{
+.card{
     position: relative;
     right: 1px;
     margin-right: 50px;
