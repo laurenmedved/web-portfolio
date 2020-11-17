@@ -101,9 +101,8 @@ div#footerlinks {
     margin-bottom: 25px;
 }
 #minime { 
-    min-width: 25%;
-    max-width: 22%;
-    height: 100%;
+    min-width: 200px;
+    max-width: 500px;
     padding-right: 75px;
 }
 p#intro{ 
@@ -158,8 +157,8 @@ p#intro2{
     border-radius: 30px;
     padding: 30px;
     background-color: #FAAA61;
-    border-bottom: solid 5px #E57611;
-    max-width: 450px;
+    border-bottom: solid 7px #E57611;
+    max-width: 500px;
 }
 .carditem{
     display: inline-block;
@@ -167,8 +166,8 @@ p#intro2{
     padding: 5px 20px;
     margin-right: 10px;
     margin-top: 10px;
-    background-color: #ffd7b1;
-    border-top: solid 3px #E57611;
+    background-color: #ffcfa1;
+    border-top: solid 4px #E57611;
     color: #052460;
     text-align: center;
     vertical-align: middle;
