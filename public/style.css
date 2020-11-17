@@ -102,7 +102,6 @@ div#footerlinks {
     background-size: cover;
     min-height: 100px;
     margin: auto;
-    margin-bottom: 25px;
 }
 #minime { 
     position: relative;
@@ -156,33 +155,21 @@ p#textbox{
 #tabletcolumn{
   padding-bottom: 0px;  
 }
-
-/*--------------ABOUT---------------*/
-.card{
-    position: relative;
-    right: 1px;
-    margin-right: 50px;
-    margin-bottom: 25px;
-    border-radius: 30px;
-    padding: 30px;
-    background-color: #FAAA61;
-    border-bottom: solid 7px #E57611;
-    max-width: 500px;
+#cardlogo{
+    max-height: 30px;
+    margin-left: 40%;
 }
-.carditem{
-    display: inline-block;
-    border-radius: 12px;
-    padding: 5px 20px;
-    margin-right: 10px;
-    margin-top: 10px;
-    background-color: #ffcfa1;
-    border-top: solid 4px #E57611;
-    color: #052460;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;  
-    letter-spacing: 1px;
-    font-size: 18px;
+#contactcard{
+    background-color: #ffead6;
+    max-width: 450px;
+}
+#contactitem{
+    background-color: #ffffff;
+    border-top: solid 4px #eea15a;
+}
+/*--------------ABOUT---------------*/
+#aboutme{
+margin: auto;
 }
 /*--------------Universal Classes---------------*/
 div.plainbox{
@@ -227,6 +214,32 @@ div.plainbox{
     background-size: cover;
     min-height: 50px;
     margin: auto;
+}
+.card{
+    position: relative;
+    right: 1px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: #FAAA61;
+    border-bottom: solid 7px #E57611;
+    max-width: 500px;
+}
+.carditem{
+    display: inline-block;
+    border-radius: 12px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #ffcfa1;
+    border-top: solid 4px #E57611;
+    color: #052460;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;  
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 /*--------------Media Queries---------------*/
 @media screen and (max-width: 1120px) {
