@@ -103,8 +103,9 @@ div#footerlinks {
 #minime { 
     position: relative;
     top: .5em;
-    min-width: 18em;
-    padding-right: 75px;
+    max-width: 15em;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 p#intro{ 
     padding-bottom: 20px;
@@ -123,10 +124,11 @@ a#calltoaction {
     border-bottom: solid 10px #E57611;
     background-color: #FAAA61;
 }
-a#biglink {
+a.link {
     vertical-align: baseline;
     text-decoration: none;
     font-family: 'Fredoka One', sans-serif;
+    color: black;
     letter-spacing: 1px;
     font-size: 18px;
     border-bottom: solid 5px #0055ff;
@@ -136,7 +138,7 @@ a#calltoaction:active {
     top: 5px;
     border-bottom: solid 5px #E57611;
 }
-a#biglink:hover {
+a.link:hover {
     color: #0049da; 
 }
 p#intro2{
@@ -146,7 +148,6 @@ p#intro2{
 #tabletimage{
     position: relative;
     right: 0;
-    padding-top: 50px;
     padding-bottom: 30px;
 }
 /*--------------ABOUT---------------*/
@@ -198,15 +199,17 @@ div.plainbox{
 .darkblue {
     color: #052460;
 }
+.table {
+    padding: 50px;
+}
 .row {
     display: flex;
-    padding-bottom: 25px;
+    padding: 10px;
   }
   
 .column {
     flex: 50%;
-    padding: 50px;
-    padding-right: 0px;
+    padding: 25px;
   }
 .pageheader { 
     display: flex;
@@ -216,7 +219,6 @@ div.plainbox{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50px;
-    max-width: 1500px;
     margin: auto;
 }
 /*--------------Media Queries---------------*/
