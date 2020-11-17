@@ -152,6 +152,7 @@ p#textbox{
     position: relative;
     right: 0;
     padding-bottom: 30px;
+    max-height: 200px;
 }
 
 /*--------------ABOUT---------------*/
