@@ -149,9 +149,11 @@ p#textbox{
     margin-bottom: 25px;
 }
 #tabletimage{
-    position: relative;
+    position: absolute;
+    left: 300px;
     right: 0;
-    max-height: 175px; 
+    padding-left: 25px;
+    max-height: 225px; 
 }
 #tabletcolumn{
   padding-bottom: 0px;  
@@ -162,7 +164,7 @@ p#textbox{
 }
 #contactcard{
     background-color: #ffead6;
-    max-width: 450px;
+    width: 415px;
     margin-left: 0px;
     border-bottom: solid 7px #FAAA61;
 }
@@ -175,9 +177,6 @@ p#textbox{
 margin: auto;
 }
 /*--------------Universal Classes---------------*/
-div.plainbox{
-    padding: 25px 50px 25px 50px;
-}
 .white { 
     color: #FFFFFF;
 }
