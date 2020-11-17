@@ -41,7 +41,6 @@ a.navlink:hover{
 div#nav {
     margin: auto;
     background-color: white;
-    max-width: 1500px;
 }
 div#navlinks {
     margin: auto;
