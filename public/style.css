@@ -121,15 +121,12 @@ a#calltoaction:active {
     border-bottom: solid 5px #E57611;
 }
 #tabletimage{
-    position: absolute;
-    left: 650px;
-    right: 0;
-    padding-left: 25px;
+    padding: 0px;
     max-width: 650px; 
 }
 #tabletcolumn{
-  padding-bottom: 0px;
-
+  padding: 0px;
+  padding-left: 20px;
 }
 #cardlogo{
     max-height: 30px;
