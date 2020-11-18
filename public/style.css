@@ -23,6 +23,10 @@ h3 {
     letter-spacing: 1px;
     font-size: 24px;
 }
+p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
 /*---------Navbar---------------*/
 nav { 
     display: flex;
@@ -144,10 +148,6 @@ a#calltoaction:active {
 a.link:hover {
     color: #0049da; 
 }
-p#textbox{
-    font-size: 18px;
-    margin-bottom: 25px;
-}
 #tabletimage{
     position: absolute;
     left: 300px;
@@ -175,6 +175,20 @@ p#textbox{
 /*--------------ABOUT---------------*/
 #aboutme{
 margin: auto;
+}
+#portrait{
+    max-height: 400px;
+}
+ul{
+    font-size: 18px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+li{
+    font-weight: bolder;
+    padding: 2px;
+    border-bottom: solid 2px #052460;
+    ;
 }
 /*--------------Universal Classes---------------*/
 .white { 
@@ -210,7 +224,7 @@ margin: auto;
 .pageheader { 
     display: flex;
     padding: 25px 25px;
-    background: #093B4D linear-gradient(180deg, rgba(0,39,51,1) 0%, rgba(0,71,92,1) 100%);
+    background: #000F28;
     background-image: url("images/linebackground.svg");
     background-repeat: no-repeat;
     background-size: cover;
