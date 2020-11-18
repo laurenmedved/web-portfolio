@@ -47,11 +47,12 @@ a.navlink:hover{
     margin-top: 5px;
     max-height: 30px;
 }
-div#nav {
+#nav {
     margin: auto;
     background-color: white;
 }
-div#navlinks {
+#navlinks {
+    display: flex;
     margin: auto;
     margin-right: 1px;
     background-color: white;
@@ -73,7 +74,8 @@ footer{
 a.footertext:hover{ 
     color: #FAAA61;
 }
-div#footerlinks {
+#footerlinks {
+    display: flex;
     margin: auto;
     padding: 25px;
 }
@@ -98,7 +100,7 @@ div#footerlinks {
     min-width: 15em;
     padding-right: 75px;
 }
-p#intro{ 
+#intro{ 
     padding-bottom: 20px;
     font-size: 24px;
     line-height: 40px;
