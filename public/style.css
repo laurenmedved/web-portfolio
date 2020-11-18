@@ -122,13 +122,14 @@ a#calltoaction:active {
 }
 #tabletimage{
     position: absolute;
-    left: 300px;
+    left: 650px;
     right: 0;
     padding-left: 25px;
-    max-height: 225px; 
+    max-width: 650px; 
 }
 #tabletcolumn{
-  padding-bottom: 0px;  
+  padding-bottom: 0px;
+
 }
 #cardlogo{
     max-height: 30px;
