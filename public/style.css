@@ -81,22 +81,6 @@ div#footerlinks {
 #webportfolio{
     color: #FAAA61;
 }
-#iconfloat{
-    position: fixed;
-    right: 5px;
-    bottom: 10px;
-    z-index: 1;
-    background-color: #000F28;
-    border-radius: 50%;
-    padding: 10px;
-    width: 32px;
-    height: 32px;
-}
-#linkedin{
-    float: right;
-    border-radius: 40%;
-    max-height: 32px;
-}
 .mainheader { 
     display: flex;
     padding: 75px 75px;
@@ -131,22 +115,10 @@ a#calltoaction {
     border-bottom: solid 10px #E57611;
     background-color: #FAAA61;
 }
-a.link {
-    vertical-align: baseline;
-    text-decoration: none;
-    font-family: 'Fredoka One', sans-serif;
-    color: black;
-    letter-spacing: 1px;
-    font-size: 18px;
-    border-bottom: solid 5px #0055ff;
-}
 a#calltoaction:active {
     position: relative;
     top: 5px;
     border-bottom: solid 5px #E57611;
-}
-a.link:hover {
-    color: #0049da; 
 }
 #tabletimage{
     position: absolute;
@@ -162,10 +134,22 @@ a.link:hover {
     max-height: 30px;
     margin-left: 40%;
 }
+#socialrow{
+    padding: 0px;
+    margin-top: 30px;
+}
+.socialicon{
+    margin-right: 20px;
+    background-color: #052460;
+    border: #052460 solid 7px;
+    border-radius: 40%;
+    max-height: 32px;
+}
 #contactcard{
     background-color: #ffead6;
-    width: 415px;
+    width: 440px;
     margin-left: 0px;
+    padding-bottom: 15px;
     border-bottom: solid 7px #FAAA61;
 }
 #contactitem{
@@ -191,6 +175,19 @@ li{
     ;
 }
 /*--------------Universal Classes---------------*/
+a.link {
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: 'Fredoka One', sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border-bottom: solid 5px #0055ff;
+    margin-right: 15px;
+}
+a.link:hover {
+    color: #0049da; 
+}
 .white { 
     color: #FFFFFF;
 }
