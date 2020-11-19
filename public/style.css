@@ -30,6 +30,7 @@ p{
 a{
     text-decoration: none;
     font-family: 'Fredoka One', sans-serif;
+    transition: .2s;
 }
 /*-----------------------Navbar-----------------------------*/
 nav { 
@@ -65,6 +66,7 @@ footer{
     height: 80px;
 }
 .footertext{ 
+    font-family: 'Fredoka One', sans-serif;
     font-size: 15px;
     letter-spacing: 1px;
     padding-left: 20px;
@@ -180,19 +182,20 @@ dl#coursedesc{
     padding: 10px 75px 50px 75px;
 }
 div#projects > .row {
-    padding: 0;
+    padding: 0px 20px 0px 20px;
     justify-content: center;
     align-items: center;
 }
 .project{
     display: table;
     position: relative;
-    margin: 20px;
+    margin: 25px;
     border-radius: 8%;
     background-color: rgb(124, 124, 124);
     text-align: center;
-    min-width: 500px;
-    min-height: 400px;
+    min-width: 18rem;
+    min-height: 20rem;
+    transition: .4s;
 }
 .title{
     position: relative;
@@ -211,10 +214,11 @@ div#projects > .row {
     z-index: 8;
     border-radius: 8%;
     background: rgb(0, 0, 0);
-    opacity: 0;
+    opacity: .25;
   }
-  .project:hover .overlay {
-    opacity: .2;
+  .project:hover{
+    z-index: 99;
+    transform: scale(1.15);
   }
 /*----------------------------Universal Classes-----------------------------*/
 a.link {
