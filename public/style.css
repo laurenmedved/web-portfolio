@@ -107,6 +107,7 @@ a.footertext:hover{
     line-height: 40px;
 }
 a#calltoaction {
+    transition: 0s;
     vertical-align: baseline;
     border-radius: 5px;
     letter-spacing: 1px;
