@@ -1,4 +1,4 @@
-/*-----------GENERAL------------*/
+/*------------------------GENERAL SELECTORS--------------------------*/
 body {
     margin: auto;
     font-family: 'Lato', serif;
@@ -27,7 +27,7 @@ p{
     font-size: 18px;
     margin-bottom: 25px;
 }
-/*---------Navbar---------------*/
+/*-----------------------Navbar-----------------------------*/
 nav { 
     display: flex;
     padding: 5px 20px;
@@ -57,7 +57,7 @@ a.navlink:hover{
     margin-right: 1px;
     background-color: white;
 }
-/*--------------Footer---------------*/
+/*----------------------------Footer-----------------------------*/
 footer{
     background-color: #000F28;
     height: 80px;
@@ -79,7 +79,7 @@ a.footertext:hover{
     margin: auto;
     padding: 25px;
 }
-/*--------------INDEX---------------*/
+/*----------------------------INDEX-----------------------------*/
 #webportfolio{
     color: #FAAA61;
 }
@@ -156,10 +156,7 @@ a#calltoaction:active {
     background-color: #ffffff;
     border-top: solid 4px #FAAA61;
 }
-/*--------------ABOUT---------------*/
-#aboutme{
-margin: auto;
-}
+/*----------------------------ABOUT-----------------------------*/
 #portrait{
     max-height: 400px;
 }
@@ -177,7 +174,7 @@ li#course{
 dl#coursedesc{
     padding-bottom: 5px;
 }
-/*--------------Universal Classes---------------*/
+/*----------------------------Universal Classes-----------------------------*/
 a.link {
     vertical-align: baseline;
     text-decoration: none;
@@ -200,7 +197,7 @@ a.link:hover {
 .offblack { 
     color: #3E3E3E;
 }
-.pink { 
+.orange { 
     color: #E57611;
 }
 .black {
@@ -231,6 +228,10 @@ a.link:hover {
     min-height: 50px;
     margin: auto;
 }
+.pagetitle{
+    margin: auto;
+    color: #fff;
+}
 .card{
     position: relative;
     right: 1px;
@@ -257,24 +258,48 @@ a.link:hover {
     letter-spacing: 1px;
     font-size: 18px;
 }
-/*--------------Media Queries---------------*/
-@media screen and (max-width: 1120px) {
-    h1#welcome { 
-        font-size: 32px;
-        margin:0;
-        color: white;
+/*----------------------------404-----------------------------*/
+#error{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+/*----------------------------Media Queries-----------------------------*/
+@media screen and (max-width: 1280px) {
+    h1{ 
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
     }
     p#intro{ 
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         font-size: 18px;
+        line-height: 30px;
     }
     a#calltoaction {
         vertical-align: baseline;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 22px;
         padding: 5px 40px;
     }
     #tabletcolumn{
-        padding-top: 75px;  
+        padding-top: 5%;  
       }
+    
+    .carditem{
+        border-radius: 8px;
+        padding: 3px 15px;
+        margin-right: 8px;
+        margin-top: 8px;
+        line-height: 25px;  
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
 }
