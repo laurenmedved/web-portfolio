@@ -183,6 +183,8 @@ dl#coursedesc{
     padding: 10px 75px 50px 75px;
 }
 div#projects > .row {
+    flex-wrap: wrap;
+    flex: 1 1 auto;
     padding: 0px 20px 0px 20px;
     justify-content: center;
     align-items: center;
@@ -345,5 +347,10 @@ a.link:hover {
         line-height: 25px;  
         letter-spacing: 1px;
         font-size: 16px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .row{
+        flex-wrap: wrap;
     }
 }
