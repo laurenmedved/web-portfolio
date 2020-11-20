@@ -94,6 +94,7 @@ a.footertext:hover{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100px;
+    max-height: 300px;
     margin: auto;
 }
 #minime { 
@@ -369,5 +370,8 @@ a.link:hover {
     }
     .link{
         line-height: 30px;
+    }
+    .mainheader{
+        max-height: 900px;
     }
 }
