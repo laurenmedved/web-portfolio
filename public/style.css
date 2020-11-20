@@ -32,6 +32,9 @@ a{
     font-family: 'Fredoka One', sans-serif;
     transition: .2s;
 }
+ul{
+    padding: 0;
+}
 /*-----------------------Navbar-----------------------------*/
 nav { 
     display: flex;
@@ -63,7 +66,6 @@ a.navlink:hover{
 /*----------------------------Footer-----------------------------*/
 footer{
     background-color: #000F28;
-    height: 80px;
 }
 .footertext{ 
     font-family: 'Fredoka One', sans-serif;
@@ -92,7 +94,6 @@ a.footertext:hover{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100px;
-    max-height: 300px;
     margin: auto;
 }
 #minime { 
@@ -163,13 +164,11 @@ a#calltoaction:active {
 ul#courselist{
     font-size: 18px;
     margin-bottom: 25px;
-    padding: 0;
 }
 li#course{
     font-weight: bolder;
     padding: 2px;
     border-bottom: solid 1px #05236052;
-    ;
 }
 dl#coursedesc{
     padding-bottom: 5px;
@@ -181,6 +180,9 @@ dl#coursedesc{
 }
 #projects{
     padding: 10px 75px 50px 75px;
+}
+#project1{
+    background-image: url(images/brandthumbnail.png);
 }
 div#projects > .row {
     flex-wrap: wrap;
@@ -194,7 +196,7 @@ div#projects > .row {
     position: relative;
     margin: 25px;
     border-radius: 8%;
-    background-color: rgb(124, 124, 124);
+    background-color: #ad5400;
     text-align: center;
     min-width: 18rem;
     min-height: 20rem;
@@ -216,8 +218,8 @@ div#projects > .row {
     left: 0;
     z-index: 8;
     border-radius: 8%;
-    background: rgb(0, 0, 0);
-    opacity: .25;
+    background: #ad5400;
+    opacity: .85;
   }
   .project:hover{
     z-index: 99;
@@ -280,8 +282,6 @@ a.link:hover {
     color: #fff;
 }
 .card{
-    position: relative;
-    right: 1px;
     margin: auto;
     margin-bottom: 25px;
     border-radius: 30px;
@@ -352,5 +352,22 @@ a.link:hover {
 @media screen and (max-width: 900px) {
     .row{
         flex-wrap: wrap;
+    }
+    .mainheader{
+        flex-wrap: wrap;
+    }
+    #welcome{
+        margin-top: 50px;
+    }
+    #contactcard{
+        position: relative;
+        right: 65px;
+        transform: scale(.75)
+    }
+    #footerlinks{
+        flex-wrap: wrap;
+    }
+    .link{
+        line-height: 30px;
     }
 }
