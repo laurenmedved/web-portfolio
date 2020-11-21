@@ -251,7 +251,7 @@ a.link:hover {
     color: #E57611;
 }
 .black {
-    color: #000;
+    color: #1b1b1b;
 }
 .darkblue {
     color: #052460;
@@ -305,6 +305,9 @@ a.link:hover {
     line-height: 30px;  
     letter-spacing: 1px;
     font-size: 18px;
+}
+.morebottomspace{
+    margin-bottom: 40px;;
 }
 /*----------------------------404-----------------------------*/
 #error{
