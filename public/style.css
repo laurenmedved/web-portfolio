@@ -379,8 +379,3 @@ a.link:hover {
         max-height: 900px;
     }
 }
-@media only screen and (min-width: 480) {
-    body{
-        transform: scale(.75)
-    }
-}
