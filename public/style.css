@@ -173,6 +173,8 @@ a.storylink:hover {
 }
 #portrait{
     max-height: 400px;
+    margin:0;
+    padding:0;
 }
 #courseheader{
     margin-top: 50px;
@@ -189,21 +191,17 @@ li#course{
 dl#coursedesc{
     padding-bottom: 5px;
 }
-#portrait{
-    margin:0;
-    padding:0;
-}
 #transparentme{
     display: block;
     margin: auto;
     height: 450px;
     position: relative;
-    top: 20px;
+    top: 60px;
 }
 #aboutheader{
     background-color: #000F28;
     padding-left: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     border-radius: 0px 0px 400px 0%;
     overflow: hidden;
 }
@@ -353,8 +351,13 @@ a.link:hover {
     padding: 20px;
 }
 /*----------------------------Media Queries-----------------------------*/
+@media only screen (min-width: 1500px) {
+    #transparentme{
+        top: 70px;
+    }
+}
 
-@media only screen and (max-width: 1280px) and (min-width: 768px) {
+@media only screen and (max-width: 1280px){
     h1{ 
         font-size: 38px;
     }
