@@ -159,6 +159,18 @@ a#calltoaction:active {
     border-top: solid 4px #FAAA61;
 }
 /*----------------------------ABOUT-----------------------------*/
+a.storylink {
+    vertical-align: baseline;
+    color: #FAAA61;
+    letter-spacing: 2px;
+    font-size: 24px;
+    border-bottom: solid 5px #FAAA61;
+    padding-bottom: 5px;
+    margin-right: 15px;
+}
+a.storylink:hover {
+    color: #fff; 
+}
 #portrait{
     max-height: 400px;
 }
@@ -173,6 +185,27 @@ li#course{
 }
 dl#coursedesc{
     padding-bottom: 5px;
+}
+#portrait{
+    margin:0;
+    padding:0;
+}
+#transparentme{
+    display: block;
+    margin: auto;
+    height: 450px;
+    position: relative;
+    top: 20px;
+}
+#aboutheader{
+    background-color: #000F28;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 400px 0%;
+    overflow: hidden;
+}
+#aboutintro{
+    padding-top: 50px;
 }
 /*----------------------------PROJECTS-----------------------------*/
 #projectsintro{
@@ -222,10 +255,11 @@ div#projects > .row {
     background: #ad5400;
     opacity: .85;
   }
-  .project:hover{
+.project:hover{
     z-index: 99;
     transform: scale(1.15);
   }
+
 /*----------------------------Universal Classes-----------------------------*/
 a.link {
     vertical-align: baseline;
