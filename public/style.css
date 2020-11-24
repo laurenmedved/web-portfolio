@@ -697,6 +697,10 @@ div#projects > .row {
     #aboutheader{
         padding-left: 20px;
     }
+    a.storylink {
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width: 480px){
     #contactcard{
@@ -740,6 +744,6 @@ div#projects > .row {
         left: -10%;
     }
     #aboutheader{
-        padding-left: 10px;
+        padding-left: 15px;
     }
 }
