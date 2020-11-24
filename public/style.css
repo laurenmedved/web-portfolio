@@ -695,3 +695,45 @@ div#projects > .row {
         left: -10%;
     }
 }
+@media only screen and (max-width: 480px){
+    #contactcard{
+        position: relative;
+        right: 5%;
+        width: 380px;
+        transform: scale(.85)
+    }
+    .card{
+        padding: 16px;
+        padding-left: 20px;
+    }
+    .row {
+        padding: 4px;
+    }
+    .column {
+        padding: 10px;
+    }
+    nav { 
+        display: flex;
+        padding: 5px 8px;
+    }
+    a.navlink{ 
+        padding-left: 8px;
+    }
+    .footertext{ 
+        padding-left: 8px;
+    }
+    #footerlinks {
+        padding: 10px;
+    }
+    .mainheader { 
+        padding: 25px 25px;
+    }
+    .table {
+        padding: 0px;
+    }
+    #transparentme{
+        height: 300px;
+        top: 10%;
+        left: -10%;
+    }
+}
