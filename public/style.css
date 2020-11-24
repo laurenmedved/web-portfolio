@@ -699,7 +699,7 @@ div#projects > .row {
     #contactcard{
         position: relative;
         right: 5%;
-        width: 380px;
+        width: 320px;
         transform: scale(.85)
     }
     .card{
@@ -729,7 +729,7 @@ div#projects > .row {
         padding: 25px 25px;
     }
     .table {
-        padding: 0px;
+        padding: 15px;
     }
     #transparentme{
         height: 300px;
