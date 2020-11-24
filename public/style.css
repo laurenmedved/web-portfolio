@@ -45,7 +45,7 @@ a.link {
     margin-right: 15px;
 }
 a.link:hover {
-    color: #0049da; 
+    color: #0049da;
 }
 .white { 
     color: #FFFFFF;
@@ -611,5 +611,86 @@ div#projects > .row {
     #minime { 
         width: 200px;
         margin-left:0px;
+    }
+}
+@media only screen and (max-width: 640px){
+    h1{ 
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+    }
+    a.link {
+        font-size: 14px;
+    }
+    p#intro{ 
+        padding-bottom: 10px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    a#calltoaction {
+        vertical-align: baseline;
+        font-size: 20px;
+        padding: 5px 36px;
+    }
+    .carditem{
+        font-size: 12px;
+    }
+    #cardlogo{
+        margin-left: 80%;
+        margin-top: -5%;
+    }
+    #contactcard{
+        position: relative;
+        right: 10%;
+        transform: scale(.85)
+    }
+    #tabletcolumn{
+        padding: 0px;
+    }
+    .pageheader { 
+        padding: 10px 10px;
+    }
+    .card{
+        padding: 18px;
+        padding-left: 24px;
+    }
+    .row {
+        padding: 7px;
+    }
+    .column {
+        padding: 18px;
+    }
+    nav { 
+        display: flex;
+        padding: 5px 10px;
+    }
+    a.navlink{ 
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    .footertext{ 
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    #footerlinks {
+        padding: 15px;
+    }
+    .mainheader { 
+        padding: 40px 40px;
+    }
+    .table {
+        padding: 15px;
+    }
+    #transparentme{
+        height: 350px;
+        top: 40px;
+        left: -10%;
     }
 }
