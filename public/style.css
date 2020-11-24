@@ -729,11 +729,11 @@ div#projects > .row {
         padding: 25px 25px;
     }
     .table {
-        padding: 15px;
+        padding: 10px;
     }
     #transparentme{
         height: 300px;
-        top: 10%;
+        top: 40px;
         left: -10%;
     }
 }
