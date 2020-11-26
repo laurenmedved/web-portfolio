@@ -350,21 +350,17 @@ div#projects > .row {
     margin: 0;
 }
 
-
-/*----------------------------404-----------------------------*/
-#error{
-    margin: auto;
-    text-align: center;
-    padding: 20px;
-}
-/*----------------------------Test Page-----------------------------*/
+/*----------------------------Rebrand-----------------------------*/
 .logolabel{
     background-color: #FAAA61;
     padding: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px ;
 }
 #centerlogo{
     position: relative;
     top: 15%;
+    margin-bottom: 40px;
 }
 #logobody{
     background-color: #f1f1f1;
@@ -526,6 +522,16 @@ div#projects > .row {
     border-right: 15px solid #ffffff;
     border-left: none;
     border-bottom: 15px solid transparent;
+}
+/*-end of hotspot-*/
+.writeup{
+    margin: 50px 75px 50px 75px;
+}
+/*----------------------------404-----------------------------*/
+#error{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
 }
 /*----------------------------Media Queries-----------------------------*/
 @media only screen and (min-width: 1500px) {
