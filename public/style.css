@@ -351,6 +351,9 @@ div#projects > .row {
 }
 
 /*----------------------------Rebrand-----------------------------*/
+#graybg{
+    background-color: #F0EFEF;
+}
 .logolabel{
     background-color: #FAAA61;
     padding: 10px;
@@ -363,7 +366,7 @@ div#projects > .row {
     margin-bottom: 40px;
 }
 #logobody{
-    background-color: #f1f1f1;
+    background-color: #F0EFEF;;
     text-align: center;
     padding: 50px;
 }
@@ -526,6 +529,14 @@ div#projects > .row {
 /*-end of hotspot-*/
 .writeup{
     margin: 50px 75px 50px 75px;
+}
+#iterations{
+    width: 80%;
+    padding-left: 25px;
+}
+/*----------------------------Camp Zodiac-----------------------------*/
+#prototype{
+    border-radius: 15px;
 }
 /*----------------------------404-----------------------------*/
 #error{
