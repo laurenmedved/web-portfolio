@@ -354,6 +354,11 @@ div#projects > .row {
 #graybg{
     background-color: #F0EFEF;
 }
+#logos{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
 .logolabel{
     background-color: #FAAA61;
     padding: 10px;
@@ -533,6 +538,14 @@ div#projects > .row {
 #iterations{
     width: 80%;
     padding-left: 25px;
+}
+#styleguide{
+    width: 400px;
+    margin: auto;
+    padding: 0px 50px 50px 50px;
+}
+.padded{
+    padding-right: 50px;
 }
 /*----------------------------Camp Zodiac-----------------------------*/
 #prototype{
