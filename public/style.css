@@ -554,6 +554,7 @@ div#projects > .row {
 /*----------------------------Camp Zodiac-----------------------------*/
 #prototype{
     border-radius: 15px;
+    position: fixed;
 }
 /*----------------------------Contact-----------------------------*/
 input, label {
