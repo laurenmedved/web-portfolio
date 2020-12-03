@@ -346,6 +346,7 @@ div#projects > .row {
     transform: scale(1.15);
 }
 #screen-notif{
+    color: red;
     opacity: 0;
     margin: 0;
 }
@@ -547,9 +548,16 @@ div#projects > .row {
 .padded{
     padding-right: 50px;
 }
+#stylelink{
+    color: #0055ff;
+}
 /*----------------------------Camp Zodiac-----------------------------*/
 #prototype{
     border-radius: 15px;
+}
+/*----------------------------Contact-----------------------------*/
+input, label {
+    display:block;
 }
 /*----------------------------404-----------------------------*/
 #error{
