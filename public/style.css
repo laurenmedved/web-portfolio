@@ -304,6 +304,9 @@ dl#coursedesc{
 #project1{
     background-image: url(images/brandthumbnail.png);
 }
+#project2{
+    background-image: url(images/czthumbnail.png);
+}
 div#projects > .row {
     flex-wrap: wrap;
     flex: 1 1 auto;
@@ -338,7 +341,7 @@ div#projects > .row {
     left: 0;
     z-index: 8;
     border-radius: 8%;
-    background: #ad5400;
+    background: #8f4500;
     opacity: .85;
 }
 .project:hover{
@@ -553,8 +556,16 @@ div#projects > .row {
 }
 /*----------------------------Camp Zodiac-----------------------------*/
 #prototype{
+    display: block;
+    margin: auto;
+    margin-top: 75px;
     border-radius: 15px;
-    position: fixed;
+}
+#formscreenshot{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin: auto;
 }
 /*----------------------------Contact-----------------------------*/
 input, label {
