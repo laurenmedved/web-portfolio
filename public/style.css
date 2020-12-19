@@ -26,6 +26,7 @@ h3 {
 p{
     font-size: 18px;
     margin-bottom: 25px;
+    line-height: 32px;
 }
 a{
     text-decoration: none;
@@ -37,15 +38,12 @@ ul{
 }
 /*----------------------------Universal Classes-----------------------------*/
 a.link {
-    vertical-align: baseline;
-    color: black;
+    display: block;
+    color:#0055ff;
     letter-spacing: 1px;
     font-size: 18px;
-    border-bottom: solid 5px #0055ff;
     margin-right: 15px;
-}
-a.link:hover {
-    color: #0049da;
+    margin-top: 32px;
 }
 .white { 
     color: #FFFFFF;
@@ -121,7 +119,7 @@ a.link:hover {
 /*-----------------------Navbar-----------------------------*/
 nav { 
     display: flex;
-    padding: 5px 20px;
+    padding: 15px 20px;
 }
 a.navlink{ 
     font-size: 12px;
