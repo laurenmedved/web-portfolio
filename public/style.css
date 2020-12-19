@@ -34,7 +34,7 @@ a{
     transition: .2s;
 }
 ul{
-    padding: 0;
+    padding: 0px;
 }
 /*----------------------------Universal Classes-----------------------------*/
 a.link {
@@ -192,20 +192,16 @@ a.footertext:hover{
     line-height: 40px;
 }
 a#calltoaction {
-    transition: 0s;
     vertical-align: baseline;
-    border-radius: 5px;
-    letter-spacing: 1px;
+    color: #FAAA61;
+    letter-spacing: 2px;
     font-size: 24px;
-    padding: 5px 40px;
-    margin: 0px;
-    border-bottom: solid 10px #E57611;
-    background-color: #FAAA61;
+    border-bottom: solid 5px #FAAA61;
+    padding-bottom: 5px;
+    margin-right: 15px;
 }
-a#calltoaction:active {
-    position: relative;
-    top: 5px;
-    border-bottom: solid 5px #E57611;
+a#calltoaction:hover {
+    color: #fff;
 }
 #tabletimage{
     padding: 0px;
@@ -259,7 +255,7 @@ a.storylink:hover {
     margin:0;
     padding:0;
 }
-#courseheader{
+/* #courseheader{
     margin-top: 50px;
 }
 ul#courselist{
@@ -268,18 +264,18 @@ ul#courselist{
 }
 li#course{
     font-weight: bolder;
-    padding-bottom: 2px;
+    padding: 20px 0px;
     border-bottom: solid 1px #05236052;
 }
 dl#coursedesc{
-    padding-bottom: 5px;
-}
+    padding-left: 25px;
+} */
 #transparentme{
     display: block;
     margin: auto;
     height: 450px;
     position: relative;
-    top: 80px;
+    top: 50px;
 }
 #aboutheader{
     background-color: #000F28;
@@ -575,7 +571,7 @@ input, label {
 }
 @media only screen and (max-width: 1280px) {
     #transparentme{
-        top: 130px;
+        top: 65px;
     }
     #screen-notif{
         opacity: 1;
@@ -625,7 +621,8 @@ input, label {
         width: 250px;
     }
     #transparentme{
-        top: 40px;
+        height: 400px;
+        top: 70px;
     }
 }
 
@@ -657,9 +654,11 @@ input, label {
         width: 200px;
         margin-left:0px;
     }
+    #aboutintro{
+        padding: 15px 50px 0px 15px ;
+    }
     #transparentme{
-        height: 400px;
-        top: 40px;
+        top: 50px;
         left: -10%;
     }
 }
@@ -791,7 +790,6 @@ input, label {
     }
     #transparentme{
         height: 300px;
-        top: 40px;
         left: -10%;
     }
     #aboutheader{
