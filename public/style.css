@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }
 h1{ 
-    font-size: 42px;
+    font-size: 46px;
     letter-spacing: 3px;
     margin:0;
     color: white;
@@ -36,6 +36,8 @@ a{
 ul{
     padding: 0px;
 }
+label {display:block;}
+textarea { display:block;}
 /*----------------------------Universal Classes-----------------------------*/
 a.link {
     display: block;
@@ -164,10 +166,7 @@ a.footertext:hover{
     padding: 25px;
 }
 /*----------------------------INDEX-----------------------------*/
-#webportfolio{
-    color: #FAAA61;
-}
-.mainheader { 
+/* .mainheader { 
     display: flex;
     padding: 75px 75px;
     background: #000F28;
@@ -185,11 +184,34 @@ a.footertext:hover{
     width: 300px;
     height: 100%;
     padding-right: 75px;
+} */
+#welcome{
+    margin-top: 60px;
+}
+#aboutheader{
+    background-color: #000F28;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-radius: 0px 0px 400px 0%;
+    overflow: hidden;
+    height: 550px;
+}
+#portrait{
+    max-height: 400px;
+    margin:0;
+    padding:0;
+}
+#transparentme{
+    display: block;
+    margin: auto;
+    height: 550px;
+    position: relative;
+    top: 80px;
 }
 #intro{ 
-    padding-bottom: 20px;
-    font-size: 24px;
-    line-height: 40px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    line-height: 54px;
 }
 a#calltoaction {
     vertical-align: baseline;
@@ -250,10 +272,8 @@ a.storylink {
 a.storylink:hover {
     color: #fff; 
 }
-#portrait{
-    max-height: 400px;
-    margin:0;
-    padding:0;
+#tablet{
+    padding-top: 50px;
 }
 /* #courseheader{
     margin-top: 50px;
@@ -270,25 +290,10 @@ li#course{
 dl#coursedesc{
     padding-left: 25px;
 } */
-#transparentme{
-    display: block;
-    margin: auto;
-    height: 450px;
-    position: relative;
-    top: 50px;
-}
-#aboutheader{
-    background-color: #000F28;
-    padding-left: 60px;
-    padding-bottom: 50px;
-    border-radius: 0px 0px 400px 0%;
-    overflow: hidden;
-}
-#aboutintro{
-    padding-top: 50px;
-}
+
+
 /*----------------------------PROJECTS-----------------------------*/
-#projectsintro{
+#centeredintro{
     text-align: center;
     padding: 20px;
 }
@@ -554,6 +559,13 @@ div#projects > .row {
 input, label {
     display:block;
 }
+form{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    padding: 60px;
+}
 /*----------------------------404-----------------------------*/
 #error{
     margin: auto;
@@ -563,15 +575,12 @@ input, label {
 /*----------------------------Media Queries-----------------------------*/
 @media only screen and (min-width: 1500px) {
     #transparentme{
-        top: 40px;
-    }
-    #resumelink{
-        margin-left: 17%;
+        top: 65px;
     }
 }
 @media only screen and (max-width: 1280px) {
     #transparentme{
-        top: 65px;
+        top: 90px;
     }
     #screen-notif{
         opacity: 1;
@@ -595,15 +604,10 @@ input, label {
     p#intro{ 
         padding-bottom: 10px;
         font-size: 18px;
-        line-height: 30px;
+        line-height: 40px;
     }
     a#calltoaction {
-        vertical-align: baseline;
         font-size: 22px;
-        padding: 5px 40px;
-    }
-    #tabletcolumn{
-        padding-top: 5%;  
     }
     .carditem{
         border-radius: 8px;
@@ -621,8 +625,8 @@ input, label {
         width: 250px;
     }
     #transparentme{
-        height: 400px;
-        top: 70px;
+        height: 475px;
+        top: 120px;
     }
 }
 
@@ -658,8 +662,9 @@ input, label {
         padding: 15px 50px 0px 15px ;
     }
     #transparentme{
-        top: 50px;
-        left: -10%;
+        height: 400px;
+        top: -20px;
+        left: -1%;
     }
 }
 @media only screen and (max-width: 640px){
@@ -675,19 +680,19 @@ input, label {
     }
     p{
         font-size: 12px;
+        line-height: 24px;
     }
     a.link {
         font-size: 14px;
     }
     p#intro{ 
-        padding-bottom: 10px;
+        padding: 15px 20px 10px 0px;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 30px;
     }
     a#calltoaction {
         vertical-align: baseline;
         font-size: 20px;
-        padding: 5px 36px;
     }
     .carditem{
         font-size: 12px;
@@ -741,7 +746,7 @@ input, label {
     }
     #transparentme{
         height: 350px;
-        top: 40px;
+        top: 50px;
         left: -10%;
     }
     #aboutheader{
@@ -752,7 +757,7 @@ input, label {
         font-size: 18px;
     }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 500px){
     #contactcard{
         position: relative;
         right: 5%;
