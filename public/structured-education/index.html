@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+    <title>Structured Education</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="margin-left: 15px;" href="#"><img src="images/logo-colored.png" style="width: 100px;" alt="Structured Education Logo - Home"></a>
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="creative.html"><img src="images/icon_creative.svg" class="creative-icon">Creative Zone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="reading.html"><img src="images/icon_reading.svg" class="reading-icon">Reading Zone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="math.html"><img src="images/icon_math.svg" class="math-icon">Math Zone</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger btn-header nav-link active" type="button" aria-current="page" data-bs-toggle="modal" data-bs-target="#warning">Parents Zone</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="modal fade" id="warning" tabindex="-1" role="dialog" aria-labelledby="warning" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Uh Oh!</h5>
+              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Are you sure you want to leave the kids zone?
+            </div>
+            <div class="modal-footer">
+              <a a href="parents.html" class="btn btn-danger" role="button" aria-pressed="true">Yes I'm a parent!</a>
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">No!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6">
+              <h1 class="padded" style="margin-top: 20px;">Welcome to Structured&nbsp;Education!</h1>
+              <p class="padded">Structured Education offers a way for early learners to build a foundation in important academic skills. All of our material is construction themed, so it is sure to keep those eager builders engaged and entertained throughout&nbsp;the&nbsp;learning&nbsp;process!</p>
+              <p class="padded" style="padding-top: 0px !important;">  We encourage parents to visit the Parents Zone to learn more about&nbsp;what we&nbsp;do and how to engage with your children&nbsp;offline!</p>            
+          </div>
+          <div class="col-lg-6">
+              <img style="width: 100%; display: block; margin: auto; padding: 50px;" src="images/hero-graphic.png" alt="Boy in construction vehicle">
+          </div>
+      </div>
+    </div>
+
+    <div class="content container-fluid dark-container" style="margin-top: 0px !important;">
+        <img style="width: 100%;" src="images/line.svg" class="line-divider-top">
+        <div class="content container" style="padding: 20px;">
+            <h1 class="light" style="text-align: center; padding: 20px; padding-bottom: 30px;" >Explore the Three Learning Zones</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="reading.html">
+                        <img src="images/carousel-readingzone.png" class="d-block w-100" alt="Reading Zone Graphic">
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="math.html">
+                        <img src="images/carousel-mathzone.png" class="d-block w-100" alt="Math Zone Graphic">
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="creative.html">
+                        <img src="images/carousel-creativezone.png" class="d-block w-100" alt="Creative Zone Graphic">
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center" style="padding: 50px;">
+              <a class="btn btn-light" id="demo" href="#" role="button">Take Me To A Random Zone!</a>
+              <script>
+                var pages = ["creative.html", "reading.html", "math.html"];
+                
+                document.getElementById("demo").setAttribute("href",pages[Math.floor(Math.random() * 3)]);
+                </script>                
+            </div>
+          </div>
+        <img style="width: 100%;" src="images/line.svg" class="line-divider-bottom">
+    </div>
+
+    <div class="content container">
+        <h1 style="text-align: center; padding: 20px; padding-top: 40px;">Want to Learn Offline?</h1>
+        <img style="width: 60%; display: block; margin: auto; padding: 20px;" src="images/worksheets.png" alt="Boy in construction vehicle">
+        <div class="d-flex justify-content-center" style="padding: 50px;">
+          <a class="btn btn-success" href="#" role="button">Download our Worksheets!</a>
+        </div>
+      </div>
+
+    <footer>
+      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-footer">
+            <div class="container-fluid d-flex align-items-center" style="padding-top: 20px;">
+              <a class="navbar-brand" href="#"><img src="images/logo-footer.png" style="width: 150px; display: block; position: relative; bottom: 0px;" alt="Structured Education Logo - Home"></a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="creative.html">Creative Zone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="reading.html">Reading Zone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="math.html">Math Zone</a>
+                  </li>
+                  <li class="nav-item">
+                    <button class="btn btn-danger btn-header nav-link active" type="button" aria-current="page" data-bs-toggle="modal" data-bs-target="#warning">Parents Zone</button>
+                  </li>
+                </ul>
+            </div>          
+          </nav>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
