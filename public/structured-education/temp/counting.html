@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Structured Education</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-header">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="margin-left: 15px;" href="index.html"><img src="images/logo-colored.png" style="width: 100px;" alt="Structured Education Logo - Home"></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="creative.html"><img src="images/icon_creative.svg" class="creative-icon" alt="creative paintbrush">Creative Zone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="reading.html"><img src="images/icon_reading.svg" class="reading-icon" alt="reading book">Reading Zone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="math.html"><img src="images/icon_math.svg" class="math-icon" alt="math symbols">Math Zone</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-danger btn-header nav-link active" type="button" aria-current="page" data-bs-toggle="modal" data-bs-target="#warning">Parents Zone</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <div class="modal fade" id="warning" tabindex="-1" role="dialog" aria-labelledby="warning" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title" id="exampleModalLabel">Uh Oh!</h5>
+              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="rounded mx-auto d-block" src="images/stop.png" alt="stop sign">
+              <br>
+              <p style="text-align: center;">Are you sure you want to leave the kids zone?</p>
+            </div>
+            <div class="modal-footer">
+              <div class="d-flex">
+                <div class="ms-auto p-2">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No!</button>
+                </div>
+                <div class="me-auto p-2">
+                  <a a href="parents.html" class="btn btn-success" role="button" aria-pressed="true">Yes I'm a parent!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="content container padded">
+      <h1 class="changeMe padded" style="text-align: center;">Hello, world!</h1>
+      <div class=" container-fluid inner padded">
+
+       
+        <!-- <div class="line"></div> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <div class="d-flex padded">
+          <div class="object5 animated-object">
+            <div style="color: white;"> </div>
+          </div>
+          <div class="object4 animated-object">
+            <div style="color: white;"> </div>
+          </div>
+          <div class="object3 animated-object">
+            <div style="color: white;">  </div>
+          </div>
+          <div class="object2 animated-object">
+            <div style="color: white;">  </div>
+          </div>
+          <div class="object1 animated-object">
+            <div style="color: white;">  </div>
+          </div>
+        </div>
+        <div class="d-flex padded">
+          <div class="object10 animated-object">
+            <div style="color: white;">  </div>
+          </div>
+          <div class="object9 animated-object">
+            <div style="color: white;">  </div>
+          </div>
+          <div class="object8 animated-object">
+            <div style="color: white;">  </div>
+          </div>
+          <div class="object7 animated-object">
+            <div style="color: white;">  </div>
+          </div>
+          <div class="object6 animated-object">
+            <div style="color: white;">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center padded">
+        <button class="btn-success btn" id="start-button"><span class="changeMe2">Count!</span></button>
+      </div>
+    </div>
+
+    
+    <footer>
+      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-footer">
+            <div class="container-fluid d-flex align-items-center" style="padding-top: 20px;">
+              <a class="navbar-brand" href="index.html"><img src="images/logo-footer.png" style="width: 150px; display: block; position: relative; bottom: 0px;" alt="Structured Education Logo - Home"></a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="creative.html">Creative Zone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="reading.html">Reading Zone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="math.html">Math Zone</a>
+                  </li>
+                  <li class="nav-item">
+                    <button class="btn btn-danger btn-header nav-link active" type="button" aria-current="page" data-bs-toggle="modal" data-bs-target="#warning">Parents Zone</button>
+                  </li>
+                </ul>
+            </div>          
+          </nav>
+    </footer>
+    <script src="count.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
