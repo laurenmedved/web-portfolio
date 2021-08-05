@@ -1,0 +1,73 @@
+#landing{
+    display: block;
+    align-content: center;
+}
+#load1{
+    display: none;
+    color: white;
+}
+#landing-logo{
+    max-width: 500px;
+}
+#disclaimer{
+    display: none;
+    transition: .3s;
+}
+#info1{
+    display: none;
+    transition: .3s;
+}
+#info2{
+    display: none;
+    transition: .3s;
+}
+#info3{
+    display: none;
+    transition: .3s;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #081b44;
+    border-radius: 50px;
+}
+  
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #5c3a59;
+    border-radius: 50px;
+}
+
+
+.fade {
+    animation-duration: .4s;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+  }
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
