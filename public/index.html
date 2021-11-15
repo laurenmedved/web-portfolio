@@ -3,101 +3,299 @@
     <title>Lauren Driscoll</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Besbas+New:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </header>
-<body>
-    <div id="nav">
-        <nav>
-            <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
-            <ul style="list-style-type:none;" id="navlinks">
-                <li><a class="navlink" href="about.html">ABOUT</a></li>
-                <li><a class="navlink" href="projects.html">PROJECTS</a></li>
-                <li><a class="navlink" href="organizations.html">ORGANIZATIONS</a></li>
-                <li><a class="navlink" href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="table" style="padding: 0; background-color:red;" >
-        <div class="row" style="margin: 0; ">
-            <div class="column" style="margin: 0; ">
-                <p class="white" style="margin: 0; ">Note: This website was made in late 2020, prior to my knowledge of bootstrap. A revamp is being made soon! <br> If you are here to see my work, I highly reccomend checking out the offline versions of my portfolio and resume linked at the bottom of this page. </p>
+<body style="overflow-x: hidden;">
+    <nav class="navbar navbar-expand navbar-dark blue-bg">
+        <a class="navbar-brand" href="index.html"><img id="ld-logo" class="x-space-small" style="height: 30px;" src='images/ld-logo-orange.svg'> Lauren Driscoll</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      
+        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/laurndrsc"><img class="sm-link" style="height: 25px;"src="images/linkedin.png"></a>
+            </li>
+            <li class="">
+                <a class="nav-link" href="https://www.behance.net/laurndrsc"><img class="sm-link" style="height: 25px;"src="images/behance.png"></a>
+              </li>
+          </ul>
+        <!-- </div> -->
+    </nav>
+
+    <div class="x-padded-xlarge">
+        <div class="padded">
+            <h2 class="text-center">Projects</h2>
+
+            <div class="row" >
+                
+                <div class="col-xl-2 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around space">
+                        <a class="no-style" href="structured-education/index.html">
+                            <div class="card project" style="max-width: 600px;">
+                                <img class="card-img-top" src="images/web.svg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Accesibility Website</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around space">
+                        <a class="no-style" href="lake-park/index.html">
+                            <div class="card project" style="max-width: 600px;">
+                                <img class="card-img-top"  src="images/eblast.svg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Eblast</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around space">
+                        <a class="no-style" href="branding.html">
+                            <div class="card project" style="max-width: 600px;">
+                                <img class="card-img-top" src="images/brand.svg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Branding</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-xl-2 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around space">
+                        <div class="card project" style="max-width: 600px;">
+                            <img class="card-img-top"  src="images/client.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Client Logos</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+
+            <!-- <div class="row"> -->
+                <div class="col-xl-2 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around space">
+                        <div class="card project" style="max-width: 600px;">
+                            <img class="card-img-top" src="images/campus.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Campus Organizations</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around space">
+                        <div class="card project" style="max-width: 600px;">
+                            <img class="card-img-top"  src="images/moen-drop.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Moen</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around space">
+                        <div class="card project" style="max-width: 600px;">
+                            <img class="card-img-top"  src="images/client.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Game Development</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around space">
+                        <div class="card project" style="max-width: 600px;">
+                            <img class="card-img-top" src="images/brand.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Illustration</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
             </div>
-            <!-- <div class="column" id="tabletcolumn">
-                <img id="tabletimage" src="images/tablet.svg" alt="placeholder image">
-            </div> -->
-        </div>
-    </div>
-    <div class="row" id="aboutheader">
-        <div class="column" id="aboutintro">
-            <h1 id="welcome">WELCOME!</span></h1>
-            <p id="intro" class="offwhite">My name is Lauren Driscoll and I am an Interactive Design student who's passionate about integrating technology and design. </p>
-            <a id="calltoaction" class="black" href="projects.html">View My Work</a>
-        </div>
-        <div class="column" id="portrait">
-            <img id="transparentme" src="images/Transparent-Portrait-Recolored.png">
-        </div>
-    </div>
-    <div class="table">
-        <div class="row">
-            <div class="column">
-                <h2 class="darkblue">SELF-DRIVEN AND MOTIVATED</h2>
-                <p class="offblack">Despite having formal education, I am mostly self taught and always learning new things outside of my coursework. Most of my motivation comes from my experience using technology and my desire to make it better. I prioritize accessibility and usability in my designs, but I always make sure there’s a touch of creativity!</p>
-                <a class="link" href="about.html">Learn More About Me</a>
-            </div>
-            <!-- <div class="column" id="tabletcolumn">
-                <img id="tabletimage" src="images/tablet.svg" alt="placeholder image">
-            </div> -->
-        </div>
-        <div class="row">
-            <div class="column">
-                <h2 class="darkblue">OPPORTUNIST</h2>
-                <p class="offblack">I believe that the more opportunities that you accept, the more that will come your way! From meeting new people to making a greater impact, every organization that I have been apart of has given me the opportunity to grow. Visit my Organizations page to learn more about the various organizations that I have participated in and the opportunities that they have given me.</p>
-                <a class="link" href="organizations.html">See My Organizations</a>
+
+                <!-- <p class="text-center">View my offline portfolio here.</p> -->
             </div>
         </div>
-        <div class="row">
-        <div class="column">
-            <h2 class="darkblue">CONTACT INFO</h2>
-            <br>
-            <div id="contactcard" class="card">
-                <div class="row">
-                    <h3 class="darkblue">LAUREN M DRISCOLL</h3>
-                    <img id="cardlogo" src="images/logo.png" alt="logo">
+    </div>
+
+
+
+    <div class="x-padded-xlarge blue-bg text-white">
+        <div class="padded y-padded-xlarge">
+            <h3 style="color: white !important;">Why I Create</h2>
+            <p>Thank you for taking the time to look through my website. 
+            </p>
+            <p> Most of my creative influence stems from my interests as a child. I loved to watch animated movies (some favorites include Bolt and WALL·E). I also grew up playing Nintendo games, particularly Pokemon. These interests exposed me to creative worlds. beautiful animations, and fascinating characters. 
+            </p>    
+            <p> In my early years, I wanted to become an animator. However, after attending pre-college for animation at the Cleveland Institute of Art, I realized that it was not my ideal career path. I went on to explore computer science and I began creating more interactive work. During my senior year of high school, I created two games using Code.Org’s tools and throughout my first year of college I began to teach myself game development using Pico-8 and Godot. Although the world of video games fascinates me, I think I’d much prefer to leave it as a hobby over a career.
+            </p>   
+            <p> Throughout my first two years of college, I spent a lot of time exploring a variety of career interests based on my own passion and my percieved stability of the industry. Through several major switches and internships I was able to explore areas of computer science, information technology, marketing, and graphic design. Ultimately, I realized that my career path needs to be creative and that graphic design was a great fit for my future. 
+            </p>  
+            
+            <p> Graphic design can be broken down into many niches, and
+                I plan to explore these niches during my 2nd half of college.
+                So far, I really enjoy front-end web design as well as designing 
+                logos and brands. I currently have an internship working for 
+                Moen Incorporated, where I am given the opportunity to 
+                explore a wide variety of design projects including 
+                packaging, e-commerce graphics, magazine ads, sell 
+                sheets, invitations, and guides. I am also exploring 
+                motion graphics in my free time.
+            </p>   
+        </div>
+    </div>
+
+
+
+    <div class="padded y-padded-xlarge orange-bg">
+        <div class="x-padded-xlarge">
+            <h3>Experience</h2>
+            <p>I am a current third year Digital Media and Design student at Baldwin Wallace University. My major focus is in Interactive Design, which means that my coursework dives deeper into computer science topics and focuses less on print-based design. For a brief time, I was a double major with Cybersecurity and have developed a lot of useful skills relating to data management and IT during that time. My current minor is in marketing where I have learned how to apply my design skills to businesses. </p>
+            <p>Below is a list of my paid work history. Currently I work for both Moen and Hive Design Group.</p>
+        
+        <div class="row justify-content-around">
+                <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around">
+                        <div class="card job" style="width: 400px;">
+                            <div class="card-body ">
+                                <!-- <img style="height: 80px;" src='images/moen.png'> -->
+                                <h5 class="card-title">Moen Incorporated</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Graphic Design Intern</h6>
+                                <!-- <a href="#" class="card-link">Website</a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="contactitem" class="carditem">
-                    <h4>laurndrsc@gmail.com</h4>
+                <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around">
+                        <div class="card job" style="width: 400px;">
+                            <div class="card-body ">
+                                <!-- <img style="height: 80px;" src='images/hdg-logo.jpeg'> -->
+                                <h5 class="card-title">Hive Design Group</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Graphic Designer</h6>
+                                <!-- <a href="#" class="card-link">Website</a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="contactitem" class="carditem">
-                    <h4>216-317-7668</h4>
+                <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around">
+                        <div class="card job" style="width: 400px;">
+                            <div class="card-body ">
+                                <!-- <img style="height: 80px;" src='images/CMNH-logo.jpeg'> -->
+                                <h5 class="card-title">Cleveland Museum of Natural History</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Education Marketing Intern*</h6>
+                                <!-- <a href="#" class="card-link">Website</a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row" id="socialrow">
-                    <a href="https://www.linkedin.com/in/laurndrsc/" add target="_blank" ><img class="socialicon" src="images/linkedin-3-64.png"></a>
-                    <a href="https://www.facebook.com/laurndrsc/" add target="_blank" ><img class="socialicon" src="images/facebook-3-64.png"></a>
-                    <a href="https://www.instagram.com/laurndrsc/" add target="_blank" ><img class="socialicon" src="images/instagram-64.png"></a>
+                <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around">
+                        <div class="card job" style="width: 400px;">
+                            <div class="card-body ">
+                                <!-- <img style="height: 80px;" src='images/shcs-logo.png'> -->
+                                <h5 class="card-title">Shaker Heights City School District</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Information Technology Intern*</h6>
+                                <!-- <a href="#" class="card-link">Website</a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around">
+                        <div class="card job" style="width: 400px;">
+                            <div class="card-body ">
+                                <!-- <img style="height: 80px;" src='images/bwu-logo.png'> -->
+                                <h5 class="card-title">Baldwin Wallace University</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Computer Science Tutor*</h6>
+                                <!-- <a href="#" class="card-link">Website</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
+                    <div class="row justify-content-around">
+                        <div class="card job" style="width: 400px;">
+                            <div class="card-body ">
+                                <!-- <img style="height: 80px;" src='images/arbys-logo.jpeg'> -->
+                                <h5 class="card-title">Arby's Restaurant</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Team Member*</h6>
+                                <!-- <a href="#" class="card-link">Website</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size: 10px;">*Previously held position</p>
+            <p>View my resume here</p>
+        </div>
+    </div>
+
+    <div class="y-padded-xlarge padded">
+        <div class="x-padded-xlarge">
+            <h3 class="">Contact</h2>
+                <p> Please feel free to reach out to inquire about a future opportunity. 
+                </p>  
                 <p>
+                    laurndrsc@gmail.com <br>
+                    (216) 317 7668 <br>
+                    @laurndrsc
+                </p>
+            <div class="container">
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                    </p>
+                </form>
             </div>
-            <a class="link" href="contact.html">Contact Form</a>
-        </div>
-        <div class="column">
-            <h2 class="darkblue">OFFLINE VIEWING</h2>
-            <p> Updated 3/19/2021</p>
-            <a class="link" href="/files/resume.pdf" download>Download Resume PDF</a>
-            <a class="link" href="/files/portfolio.pdf" download> Download Portfolio PDF</a>
         </div>
     </div>
-    </div>
+
     <footer>
-        <nav>
-            <ul style="list-style-type:none;" id="footerlinks">
-                <li><a class="footertext" href="about.html">ABOUT</a></li>
-                <li><a class="footertext" href="projects.html">PROJECTS</a></li>
-                <li><a class="footertext" href="organizations.html">ORGANIZATIONS</a></li>
-                <li><a class="footertext" href="contact.html">CONTACT</a></li>
-                <span class="footertext"> © LAUREN DRISCOLL 2020 </span>
+        <nav class="navbar navbar-expand navbar-dark blue-bg">
+            <a class="navbar-brand" href="index.html"><img id="ld-logo" class="x-space-small" style="height: 30px;" src='images/ld-logo-orange.svg'></a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button> -->
+        
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/laurndrsc"><img class="sm-link" style="height: 25px;"src="images/linkedin.png"></a>
+                </li>
+                <li class="">
+                    <a class="nav-link" href="https://www.behance.net/laurndrsc"><img class="sm-link" style="height: 25px;"src="images/behance.png"></a>
+                </li>
             </ul>
+            <!-- </div> -->
         </nav>
     </footer>
-</body>
+
+    </body>

@@ -26,6 +26,11 @@
     transition: .3s;
 }
 
+#info4{
+  display: none;
+  transition: .3s;
+}
+
 #myProgress {
     width: 100%;
     background-color: #081b44;
@@ -47,7 +52,7 @@
   }
 
 
-@keyframes fadeIn {
+  @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
   }
@@ -71,3 +76,80 @@
     0% {opacity:0;}
     100% {opacity:1;}
   }
+
+.float {
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-name: floating;
+  animation-fill-mode: forwards;
+}
+
+  @keyframes floating {
+    0% {margin-top: 5px;}
+    60% {margin-top: -15px;}
+    100% {margin-top: 5px;}
+  }
+  @-moz-keyframes floating {
+    0% {margin-top: 5px;}
+    60% {margin-top: -15px;}
+    100% {margin-top: 5px;}
+  }
+
+  @-webkit-keyframes floating {
+    0% {margin-top: 5px;}
+    60% {margin-top: -15px;}
+    100% {margin-top: 5px;}
+  }
+
+  @-o-keyframes floating {
+    0% {margin-top: 5px;}
+    60% {margin-top: -15px;}
+    100% {margin-top: 5px;}
+  }
+
+  @-ms-keyframes floating {
+    0% {margin-top: 5px;}
+    60% {margin-top: -15px;}
+    100% {margin-top: 5px;}
+  }
+
+.bubble2{
+  margin-top: 25px;
+}
+
+.float2 {
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-name: floating2;
+  animation-fill-mode: forwards;
+}
+
+  @keyframes floating2 {
+    0% {margin-top: -35px;}
+    60% {margin-top: 25px;}
+    100% {margin-top: -35px;}
+  }
+  @-moz-keyframes floating2 {
+    0% {margin-top: -35px;}
+    60% {margin-top: 25px;}
+    100% {margin-top: -35px;}
+  }
+
+  @-webkit-keyframes floating2 {
+    0% {margin-top: -35px;}
+    60% {margin-top: 25px;}
+    100% {margin-top: -35px;}
+  }
+
+  @-o-keyframes floating2 {
+    0% {margin-top: -35px;}
+    60% {margin-top: 25px;}
+    100% {margin-top: -35px;}
+  }
+
+  @-ms-keyframes floating2 {
+    0% {margin-top: -35px;}
+    60% {margin-top: 25px;}
+    100% {margin-top: -35px;}
+  }
+
