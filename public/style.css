@@ -97,10 +97,11 @@ h3{
 }
 
 .card-title{
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
     letter-spacing: .5px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .card-subtitle{
@@ -160,6 +161,12 @@ input[type=text], select, textarea {
 
 /* MEDIA QUERIES ----------- */
 
+
+@media only screen {
+    .x-padded-xlarge{
+        padding: 0px 400px 0px 400px;
+    }
+}
 
 @media only screen and (max-width: 1800px) {
     .x-padded-xlarge{
