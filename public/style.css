@@ -170,7 +170,7 @@ input[type=text], select, textarea {
 
 @media only screen and (max-width: 1800px) {
     .x-padded-xlarge{
-        padding: 0px 200px 0px 200px;
+        padding: 0px 150px 0px 150px;
     }
 }
 
