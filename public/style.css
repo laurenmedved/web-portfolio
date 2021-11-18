@@ -209,10 +209,10 @@ input[type=text], select, textarea {
 
 @media only screen and (max-width: 490px){
     .x-padded-xlarge{
-        padding: 0px 45px 0px 45px;
+        padding: 0px 35px 0px 35px;
     }
     .y-padded-xlarge{
-        padding: 40px 0px 40px 0px;
+        padding: 33px 0px 33px 0px;
     }
     .card-title {
         font-size: 12px;
