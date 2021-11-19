@@ -29,6 +29,12 @@
 }
 
 /* ---------GENERAL CLASSES----------- */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .no-style{
     text-decoration: none;
@@ -193,6 +199,9 @@ input[type=text], select, textarea {
     .x-padded-xlarge{
         padding: 0px 100px 0px 100px;
     }
+    .center{
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -205,6 +214,9 @@ input[type=text], select, textarea {
     .card-title {
         font-size: 16px;
     }
+    .center{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 490px){
@@ -216,6 +228,9 @@ input[type=text], select, textarea {
     }
     .card-title {
         font-size: 12px;
+    }
+    .center{
+        width: 100%;
     }
 }
 
