@@ -30,6 +30,18 @@
 
 /* ---------GENERAL CLASSES----------- */
 
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #001236;
+    transition: .4s;
+}
+
+a:hover{
+    filter: opacity(85%);
+    transition: .4s;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -69,6 +81,10 @@ h3{
 
 .text-white{
     color: white !important;
+}
+
+.text-orange{
+    color: #FFA879 !important;
 }
 
 .text-muted{
