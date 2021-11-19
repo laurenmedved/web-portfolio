@@ -29,6 +29,7 @@
 }
 
 /* ---------GENERAL CLASSES----------- */
+
 .center {
     display: block;
     margin-left: auto;
@@ -107,9 +108,9 @@ h3{
 }
 
 .card-title{
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
+    font-family: 'Archivo', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
     letter-spacing: .5px;
     font-size: 16px;
 }
@@ -173,9 +174,9 @@ input[type=text], select, textarea {
 
 
   .project-title{
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
+    font-family: 'Archivo', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
     letter-spacing: .5px;
     font-size: 20px;
 }
