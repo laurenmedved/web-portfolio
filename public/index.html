@@ -228,16 +228,28 @@
             
         <!-- </div> -->
         <!-- <h4>Paid Work History</h4> -->
-            <p>Below is my paid work history. Currently I work for Hive Design Group, an in-house design agency at Baldwin Wallace University, and I am interning at Moen until the end of the year. I am open to all paid design opportunities beginning in January of 2022.</p>
+            <p>Below is my recent work history. Currently I work for Hive Design Group, an in-house design agency at Baldwin Wallace University, and I am interning at Joyce Manufacturing for the spring semester. </p>
         
         <div class="row justify-content-around">
+            <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
+                <div class="row justify-content-around">
+                    <div class="card job" style="width: 400px;">
+                        <div class="card-body ">
+                            <!-- <img style="height: 80px;" src='images/moen.png'> -->
+                            <h5 class="card-title">Joyce Manufacturing</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Graphic Design Intern</h6>
+                            <!-- <a href="#" class="card-link">Website</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
                 <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
                     <div class="row justify-content-around">
                         <div class="card job" style="width: 400px;">
                             <div class="card-body ">
-                                <!-- <img style="height: 80px;" src='images/moen.png'> -->
-                                <h5 class="card-title">Moen Incorporated</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Graphic Design Intern</h6>
+                                <!-- <img style="height: 80px;" src='images/hdg-logo.jpeg'> -->
+                                <h5 class="card-title">Hive Design Group</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Graphic Designer</h6>
                                 <!-- <a href="#" class="card-link">Website</a> -->
                             </div>
                         </div>
@@ -247,9 +259,9 @@
                     <div class="row justify-content-around">
                         <div class="card job" style="width: 400px;">
                             <div class="card-body ">
-                                <!-- <img style="height: 80px;" src='images/hdg-logo.jpeg'> -->
-                                <h5 class="card-title">Hive Design Group</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Graphic Designer</h6>
+                                <!-- <img style="height: 80px;" src='images/moen.png'> -->
+                                <h5 class="card-title">Moen Incorporated</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Graphic Design Intern*</h6>
                                 <!-- <a href="#" class="card-link">Website</a> -->
                             </div>
                         </div>
@@ -291,18 +303,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
+                <!-- <div class="col-xl-4 col-lg-4 col-sm-4 col-6">
                     <div class="row justify-content-around">
                         <div class="card job" style="width: 400px;">
                             <div class="card-body ">
                                 <!-- <img style="height: 80px;" src='images/arbys-logo.jpeg'> -->
-                                <h5 class="card-title">Arby's Restaurant</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Team Member*</h6>
+                                <!-- <h5 class="card-title">Arby's Restaurant</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Team Member*</h6> -->
                                 <!-- <a href="#" class="card-link">Website</a> -->
-                            </div>
+                            <!-- </div>
                         </div>
                     </div>
-                </div>
+                </div> --> 
             </div>
             <p style="font-size: 10px;">*Previously held position</p>
             <p>In addition to paid work experience, I work with many on-campus organizations in order to produce material for marketing and advertisements.
@@ -323,11 +335,12 @@
                 </p>
             <div class="container">
                 <form name="contact" method="POST" data-netlify="true">
-                    <label for="fname">First Name</label>
+                    <label for="fname">Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
                 
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label>Email </label>
+                    <input type="email" id="email" name="email" placeholder="Your email.." />
+
                 
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
