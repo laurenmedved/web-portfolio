@@ -30,6 +30,7 @@
 
 /* ---------GENERAL CLASSES----------- */
 
+
 a{
     text-decoration: none;
     font-weight: bolder;
@@ -302,3 +303,9 @@ input[type=text], select, textarea {
     }
 }
 
+@media (max-width: 767px) {
+
+    .text-xs-center {
+      text-align: center;
+    } 
+  }
