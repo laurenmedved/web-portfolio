@@ -307,6 +307,7 @@ input[type=text], select, textarea {
 
     h4{
         font-size: 16px;
+        margin: 0px 20px 0px 20px;
     }
 
     .text-shrink{
@@ -321,17 +322,17 @@ input[type=text], select, textarea {
     }
   }
 
-  @media (max-width: 600px) {
+  /* @media (max-width: 600px) {
 
     h4{
         font-size: 14px;
     }
 
     .text-shrink{
-        font-size: 14px;
+        font-size: 16px;
     }
     .card-title {
         font-size: 14px;
     }
 
-  }
+  } */
