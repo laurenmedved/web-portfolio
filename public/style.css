@@ -305,6 +305,13 @@ input[type=text], select, textarea {
 
 @media (max-width: 767px) {
 
+    h4{
+        font-size: 16px;
+    }
+
+    .text-shrink{
+        font-size: 20px;
+    }
     .text-xs-center {
       text-align: center;
     } 
