@@ -308,4 +308,8 @@ input[type=text], select, textarea {
     .text-xs-center {
       text-align: center;
     } 
+
+    #me{
+        width: 50%;
+    }
   }
