@@ -1,0 +1,445 @@
+/* ---------MARGIN CLASSES----------- */
+
+/* .space-small{
+    margin: 10px;
+} */
+.x-space{
+    margin: 0px 20px 0px 20px;
+}
+.x-space-small{
+    margin: 0px 10px 0px 10px;
+}
+
+/* ---------PADDING CLASSES----------- */
+
+.padded{
+    padding: 30px;
+}
+
+.padded-bottom{
+    padding-bottom: 30px;
+}
+
+.padded-small{
+    padding: 10px;
+}
+
+.x-padded-xlarge{
+    padding: 0px 100px 0px 100px;
+}
+
+.y-padded-xlarge{
+    padding: 50px 0px 50px 0px;
+}
+
+/* ---------GENERAL CLASSES----------- */
+
+p{
+    padding-bottom: 10px;
+}
+.row-limit{
+    max-width: 1200px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #023a51;
+    transition: .4s;
+}
+
+a:hover{
+    filter: opacity(85%);
+    transition: .4s;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.no-style{
+    text-decoration: none;
+}
+
+.blue-bg{
+    background-color: #023a51;
+}
+
+.light-blue-bg{
+    background-color: #365769;
+}
+
+.white-bg{
+    background-color: #ffffff;
+}
+
+.pink-bg{
+    background-color: #f8bac5;
+}
+
+body{
+    color: #023a51;
+    background-color: #f9efed;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700!important;
+    padding-bottom: .8em;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #023a51;
+    font-weight: 600;
+}
+
+h2{
+    padding-bottom: 25px;
+}
+
+h3{
+    padding-bottom: 15px;
+}
+
+h4{
+    padding-bottom: 15px;
+}
+
+
+.text-white{
+    color: white !important;
+}
+
+.text-pink{
+    color: #ef3c5a !important;
+}
+
+.text-light-pink{
+    color: hsl(349, 82%, 85%) !important;
+}
+
+.text-muted{
+    color: #365769 !important;
+}
+
+.inner{
+    padding: 0 30px 0 30px;
+}
+
+.maxine-img {
+    /* The image used */
+    background-image: url("images/illustration4.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+  }
+  
+  .paintbrush-img {
+    /* The image used */
+    background-image: url("images/paintbrush.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+  }
+
+  .test-img {
+    /* The image used */
+    background-image: url("images/joyce-thumbnail.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* ---------NAV BAR----------- */
+
+.navbar{
+    padding: 20px;
+}
+
+.navbar a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sm-link:hover{
+    filter: opacity(85%);
+    transition: .4s;
+}
+/*----------HEADER----------*/
+
+.header-title{
+    font-size: 3.5em;
+    line-height: 1em;
+    margin-bottom: -40px;
+}
+
+.header-bg{
+    position: absolute; 
+    z-index: -1;
+    width: 100%;
+}
+
+
+/* .profile-header {
+    animation: OnLoadAnimation ease 3s
+
+}
+  
+@keyframes OnLoadAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+} */
+
+/* ---------CARDS----------- */
+
+.card-img-top{
+    width: 70%;
+    margin: auto;
+}
+
+
+.card{
+    padding: 0px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 0px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    background: none;
+}
+
+.card2 {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+
+.card2 img {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+.card-title{
+    font-family: 'Archivo', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+
+.card-subtitle{
+    font-weight: 400;
+}
+
+.project:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.project{
+    transition: .3s;
+}
+
+.job{
+    background: none;
+    margin: none;
+}
+
+/* ------ img hover -------- */
+
+.hover-effect{
+    
+    transition: .5s;
+}
+
+.hover-effect:hover{
+    transform: rotate(3deg);
+    transition: .5s;
+}
+
+/* ---------FORMS----------- */
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #023a51; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: #ffffff;
+  }
+
+  input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #023a51; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: #ffffff;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #023a51;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .4s;
+  }
+
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #023a51;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    padding: 20px;
+    margin-left: -20px;
+  }
+
+
+
+
+  .project-title{
+    font-family: 'Archivo', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    letter-spacing: .5px;
+    font-size: 20px;
+}
+
+/* MEDIA QUERIES ----------- */
+
+
+@media only screen and (max-width: 1800px) {
+    .x-padded-xlarge{
+        padding: 0px 150px 0px 150px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .x-padded-xlarge{
+        padding: 0px 100px 0px 100px;
+    }
+    .center{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .temp-fix{
+        margin-left:-36px;
+    }
+    /*  the contact form section is not coorperating so this is a fix, maybe figure this out later? */
+}
+
+@media only screen and (max-width: 750px){
+    .x-padded-xlarge{
+        padding: 0px 50px 0px 50px;
+    }
+    .y-padded-xlarge{
+        padding: 43px 0px 43px 0px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    .center{
+        width: 100%;
+    }
+
+    #me{
+        transform: scale(.8)
+    }
+}
+
+@media only screen and (max-width: 490px){
+    .x-padded-xlarge{
+        padding: 0px 35px 0px 35px;
+    }
+    .y-padded-xlarge{
+        padding: 33px 0px 33px 0px;
+    }
+    .card-title {
+        font-size: 16px;
+    }
+
+   
+    .center{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header-title{
+        font-size: 2.5em;
+        line-height: 1em;
+        margin-bottom: -20px;
+    }
+
+    h4{
+        font-size: 16px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .text-shrink{
+        font-size: 20px;
+    }
+    .text-xs-center {
+      text-align: center;
+    } 
+
+  }
+
+  /* @media (max-width: 600px) {
+
+    h4{
+        font-size: 14px;
+    }
+
+    .text-shrink{
+        font-size: 16px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+
+  } */
