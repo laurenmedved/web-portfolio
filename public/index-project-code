@@ -1,0 +1,51 @@
+    <div class="light-blue-bg y-padded-xlarge">
+        
+        <div class="x-padded-xlarge row-limit container-fluid padded my-auto d-flex justify-content-center">
+            
+            <div class="row row-limit">
+                <div class="my-auto d-flex justify-content-center">
+                    <h1 class="text-white">Projects</h1>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <a href="/mimsoftware.html">
+                        <img  src="images/thumbnails/mim-thumbnail.svg" class="w-100 shadow-1-strong rounded mb-4 hover-effect" alt=""/>
+                        <!-- <div class="hover-effect"><div class="postit ">Mim Software <div class="cornershadow"></div></div></div> -->
+                        <!-- <h4> <center>MIM Software</center></h4> -->
+                        </a>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <a href="/joycemfg.html">
+                        <img src="images/thumbnails/joyce-thumbnail.png" class="w-100 shadow-1-strong rounded mb-4 hover-effect" alt=""/>
+                        <!-- <h4> <center>Joyce Manufacturing</center></h4> -->
+                        </a>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <a href="/purple-dog.html">
+                        <img  src="images/thumbnails/pdog-thumbnail.png" class="w-100 shadow-1-strong rounded mb-4 hover-effect" alt=""/>
+                        <!-- <h4> <center>Purple Dog</center></h4> -->
+                        </a>
+                </div>
+
+                <div class="col-lg-4 col-md-12 padded-bottom">
+                    <a href="/moen.html">
+                        <img src="images/moen-screenshot2.png" class="w-100 shadow-1-strong rounded mb-4 hover-effect" alt=""/>
+                        <!-- <h4> <center>Moen Incorporated</center></h4> -->
+                        </a>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <a href="/lakepark.html">
+                        <img  src="images/thumbnails/lakepark-thumbnail.png" class="w-100 shadow-1-strong rounded mb-4 hover-effect" alt=""/>
+                        <!-- <h4> <center>Lake Park</center></h4> -->
+                        </a>
+                </div>
+                <div class="col-lg-4 col-md-12 padded-bottom">
+                    <a href="/structured-education.html">
+                        <img src="images/thumbnails/structured-thumbnail.png" class="w-100 shadow-1-strong rounded mb-4 hover-effect" alt=""/>
+                        <!-- <h4> <center>Structured Education</center></h4> -->
+                        </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
