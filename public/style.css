@@ -598,6 +598,10 @@ background-color:#f9efed;
       text-align: center;
     } 
 
+    .paintbrush{
+        max-width:80px;
+    }
+
 }
 
 .mobile-articles {
