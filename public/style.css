@@ -83,7 +83,7 @@ a:hover{
 
 body{
     color: #023a51;
-    background-color: #f9efed;
+    background-color: #F8EEEC;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -239,6 +239,7 @@ h4{
     background-size: cover;
     min-height: 700px;
   }
+
 
   .test-img {
     /* The image used */
@@ -492,7 +493,7 @@ a.custombtn{
     color:#023a51;
     text-align:center;
     transition: all 0.2s;
-    background-color:#ffdce2;
+    background-color:#ffffff;
     font-size: 18px;
     
     }
@@ -518,6 +519,8 @@ background-color:#f9efed;
     .center{
         width: 70%;
     }
+
+
 }
 
 @media only screen and (min-width: 1400px){
@@ -525,6 +528,8 @@ background-color:#f9efed;
         margin-left:-36px;
     }
     /*  the contact form section is not coorperating so this is a fix, maybe figure this out later? */
+
+    
 }
 
 @media only screen and (max-width: 750px){
@@ -548,6 +553,8 @@ background-color:#f9efed;
         transform: scale(.8)
     }
 
+   
+
     /* .row-limit{
         max-width: 500px;
     } */
@@ -568,6 +575,7 @@ background-color:#f9efed;
     .center{
         width: 100%;
     }
+
 }
 
 @media (max-width: 767px) {
@@ -597,10 +605,6 @@ background-color:#f9efed;
     .text-xs-center {
       text-align: center;
     } 
-
-    .paintbrush{
-        max-width:80px;
-    }
 
 }
 
