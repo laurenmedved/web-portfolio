@@ -93,6 +93,13 @@ h1{
     padding-bottom: .8em;
 }
 
+h2-modified{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700!important;
+    padding-bottom: .8em;
+    
+}
+
 h1, h2, h3, h4, h5 {
     color: #023a51;
     font-weight: 600;
@@ -115,12 +122,17 @@ h4{
     color: white !important;
 }
 
+.text-off-white{
+    color:#F8EEEC !important;
+}
+
+
 .text-pink{
     color: #ef3c5a !important;
 }
 
 .text-light-pink{
-    color: hsl(349, 82%, 85%) !important;
+    color: #f8b9c5 !important;
 }
 
 .text-muted{
@@ -218,7 +230,7 @@ h4{
     
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 200px; 
   
     /* Create the parallax scrolling effect */
     background-position: center;
@@ -318,7 +330,6 @@ h4{
 
 .card{
     padding: 0px;
-    border-radius: 25px;
     overflow: hidden;
     border: 0px;
     margin: 0 auto; /* Added */
@@ -334,7 +345,7 @@ h4{
   }
 
 .card2 img {
-    max-width: 300px;
+    max-width: 500px;
     margin: auto;
     text-align: center;
   }
@@ -485,7 +496,6 @@ a.custombtn{
     display:inline-block;
     padding:0.35em 1.2em;
     border:0.1em solid #023a51;
-    margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
@@ -501,6 +511,42 @@ a.custombtn:hover{
 color:#023a51;
 background-color:#f9efed;
 }
+
+a.custombtn2{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #ffffff;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:600;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 18px;
+    
+    }
+
+a.custombtn2:hover{
+    color:#f9efed;
+    background-color:#023a51;
+    }
+
+a.custombtn-disabled{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #ffffff83;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:600;
+    color:#ffffff83;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 18px;
+    
+    }
+        
 
 
 /* MEDIA QUERIES ----------- */
@@ -594,10 +640,6 @@ background-color:#f9efed;
         margin-bottom: -20px;
     }
 
-    h4{
-        font-size: 16px;
-        margin: 0px 20px 0px 20px;
-    }
 
     .text-shrink{
         font-size: 20px;
