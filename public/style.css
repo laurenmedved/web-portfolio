@@ -299,6 +299,13 @@ h4{
     margin-bottom: -40px;
 }
 
+.name-header-title{
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom: -40px;
+}
+
+
 .header-bg{
     position: absolute; 
     z-index: -1;
@@ -339,13 +346,12 @@ h4{
 }
 
 .card2 {
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto;
     text-align: center;
   }
 
 .card2 img {
-    max-width: 500px;
     margin: auto;
     text-align: center;
   }
