@@ -117,6 +117,9 @@ h4{
     padding-bottom: 15px;
 }
 
+.intro-text{
+    font-size: 1.35rem;
+}
 
 .text-white{
     color: white !important;
@@ -572,6 +575,10 @@ a.custombtn-disabled{
         width: 70%;
     }
 
+    .card2{
+        max-width: 600px;
+    }
+
 
 }
 
@@ -605,6 +612,23 @@ a.custombtn-disabled{
         transform: scale(.8)
     }
 
+    .card2{
+        max-width: 300px;
+    }
+
+    .name-header-title{
+        font-size: 2rem;
+        line-height: 200%;
+    }
+
+    .intro-text{
+        font-size: 1.12rem;
+    }
+
+    .mobile-hidden{
+        visibility: hidden;
+        display: none;
+    }
    
 
     /* .row-limit{
