@@ -94,9 +94,8 @@
                 <div class="y-padded-xlarge col-12" >
                     <div  class="">
                             <h2>The New Vision for MIM</h2>
-                        <p> In early 2024 I was approached by my manager and assigned to a new product that would be developed in partnership with Elekta. This was an exciting opportunity, until I started to get into the weeds of UI design. For this partnership, we were not creating new MIM Java UI. Instead, we were creating new MIM workflows, which have their own unique framework. And to be frank, that framework is extremely limited.  </p>
-                        <p>MIM Workflows often had two main UI components. Notifications and “tables”. Tables was a broad term to describe any UI that would be custom made and put into the display (alongside patient images). Tables often had pretty extreme limitations. You could include text, buttons, and some other basic components within them. However, they were not dynamic. If you needed to perform an action and have something on the table change (such as performing a calculation), it would require the entire table to be rebuilt for the new information to appear. </p>
-                        <p> Hearing that Workflow Tables would be the main framework we would be using for this product had me apprehensive. I was concerned about the actual UX of using these tables and felt a little intimidates on how we would make a good solution with them. I expressed my concerns to our CTO, engineering leadership, and product directors. After being heard, an agreement was made to create improvements for our Workflow Tables- and thus the concept of “Workflow Sidebars” was born. </p>
+                        <p> Prior to this product release, MIM has been a software primarily used for diagnostics. However in the radiation oncology space, treatment planning is the breadwinner. Diagnostics is incredibly important for patient care, but without treatment planning capabilities, patients can’t receive care. This has been a known gap in MIM’s product line for awhile. So, when the opportunity arose to partner with Elekta for the Elekta ONE product line, it became MIM’s time to shine in treatment planning.   </p>
+                        <p>This changed the vision for MIM. It was no longer <i>just</i> a diagnostic software, but now could be used throughout the entire patient journey. </p>
                     </div>
                 </div>
             </div>
@@ -109,9 +108,12 @@
             <div class="row x-padded-xlarge">
                 <div class="y-padded-xlarge col-12">
                     <div  class="">
-                        <h2 style="color: white !important;">Defining The Standard</h2>
-                        <p> A clinical scientist at MIM had created a draft idea for this new product using Workflow Tables. I used this design as a base to figure out how to define the new Workflow Sidebars. Because our engineers had so many limitations while working within this framework, I had to be mindful of what was possible and how big of an ask every style was. For example, adding borders proved to be challenging and would require a lot of manual work to set up. However, defining sections with a simple background color was much easier for our engineers. Below is an example of the first version of the Elekta ONE workflow that was created using the original MIM Workflow Table framework. You can see, it’s not the prettiest UI. We had a long way to go in order to make this a good experience for our users.
+                        <h2 style="color: white !important;">The Framework That Horrified Me</h2>
+                        <p> When I was approached to be the designer for this project, it was exciting. Though this excitement quickly faded when I saw the framework I would be working with- MIM Workflow. This framework was internally built for MIM, but it came with a lot of limitations since the original intent of MIM Workflows was to be used for a linear set of actions. For this project, we wanted to create dashboards and sidebars that allows clinicians to jump into any part of the patient journey at any time. Allowing them to perform the actions they needed without slowing them down to fill out unnecessary information. 
                         </p> 
+
+                        <p> I don’t mean to be a complainer, but when I was shown the initial draft for this project I was horrified. Below is an image of what that first draft looked like. Yes, this is meant to be an interactive sidebar. I knew there needed to be a lot of work done to get this to be a product that would truly save clinicians time and effort AND be something that MIM would be proud to release.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -120,20 +122,46 @@
         <div class="container-fluid padded my-auto d-flex justify-content-center">
             <div style="max-width: 1080px;" class="row row-limit padded-bottom">
                 <div class="col-12">
-                    <img class="" style="width: 100%;" src="images/elektaoriginal.png">
+                    <img class="web-img" style="width: 100%;" src="images/elektaoriginal.png">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="white-bg">
+        <div class="row-limit container-fluid white-bg my-auto d-flex justify-content-center">
+            <div class="row x-padded-xlarge">
+                <div class="y-padded-xlarge col-12" >
+                    <div  class="">
+                            <h2>Improving the Framework</h2>
+                        <p> After seeing the first draft ideas and learning more about the limitations of MIM Workflows, I knew something needed to change. I worked diligently to gather thoughts from the current MIM Workflow Engineers and MIM Clinical Scientists to figure out where improvements could be made and what we could achieve quickly given the timeline for the Elekta ONE partnerships. 
+                        </p>
+
+                        <p> I sent out an internal survey, synthesized the feedback into a slide deck, and presented this information to our CTO, Senior Direct of Product, and Senior Engineering Director. After having a conversation with them, it was agreed that a change was needed and thus the MIM Workflow Improvement effort was born! For the next several years I would be working closely with MIM engineers to redesign and improve the workflow framework.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="container-fluid padded my-auto d-flex justify-content-center">
+            <div style="max-width: 1080px;" class="row row-limit padded-bottom">
+                <div class="col-12">
+                    <img class="web-img" style="width: 100%;" src="images/workflowslides.png">
                 </div>
             </div>
         </div>
 
-         <div class="row-limit container-fluid my-auto d-flex text-off-white justify-content-center">
+        <div class="row-limit container-fluid white-bg my-auto d-flex justify-content-center">
             <div class="row x-padded-xlarge">
-                <div class="y-padded-xlarge col-12">
+                <div class="y-padded-xlarge col-12" >
                     <div  class="">
-                        <p>Throughout the process we decided what features were necessary for the sidebars to function and I worked with our Java engineers to create a set of tasks to make updates to the existing framework. 
+                        <p> We used the Elekta ONE partnership as a way to spearhead the updates being made to the MIM Workflow framework. Since this was a big project, and we were under pretty major time constraints, it was important that we figured out a solution to make Workflows viable quickly. As I gathered the clinical requirements for the Elekta ONE project and began drafting user flows and screens for the design, I also began laying out what was needed in the new framework. I had to consider what was achievable today and how much effort it would take for the engineering teams to replicate better styles. There were a lot of compromises that had to be made during this process, and many tasks for improvements got put on a backlog because we knew it either was impossible to achieve in the timeframe, or it would be too costly to be worth it. The backlogged tasks would slowly get priortized over the next several versions of MIM, rather than implemented for this initial effort.
                         </p>
                     </div>
                 </div>
-            </div>
+            </div>  
         </div>
 
         <div class="container-fluid padded my-auto d-flex justify-content-center">
@@ -142,28 +170,10 @@
                     <img class="" style="width: 100%;" src="images/elekta-iteration.png">
                 </div>
             </div>
-        </div>
-
-        <div class="row-limit container-fluid my-auto d-flex text-off-white justify-content-center">
-            <div class="row x-padded-xlarge">
-                <div class="y-padded-xlarge col-12">
-                    <div  class="">
-                        <p>While updates were happening on the framework, I also needed to consider how styles would look for this specific partnership with Elekta. I met with an Elekta UI designer to learn about their current styles and design systems. I used that as a reference for the styles we’d have in our sidebars. MIM itself would get a reskin to match the Elekta colors and I would work closely with engineers to make sure the colors were being used and assigned properly. Additionally, I had to define how the styles would be applied in the sidebars and went back and forth on several iterations to determine how we’d be in alignment with Elekta’s styles while still being easy for our engineering teams to replicate in the workflow framework. Below is an example of the styles we settled on.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid padded my-auto d-flex justify-content-center">
-            <div style="max-width: 1080px;" class="row row-limit padded-bottom">
-                <div class="col-12 padded-bottom">
-                    <img class="" style="width: 100%;" src="images/elektamimskin.png">
-                </div>
-            </div>
-        </div>
+        </div> 
         
     </div>
+
 
     <div class="light-blue-bg">
         <div class="row-limit container-fluid text-off-white my-auto d-flex justify-content-center">
@@ -171,7 +181,7 @@
                 <div class="y-padded-xlarge col-12" >
                     <div  class="">
                             <h2 class="text-white">Designing the Product</h2>
-                        <p>  Once our Workflow Sidebar framework and reskin of MIM was in a good standing, I had begun meeting with our clinical scientists daily to determine the requirements for the product. We created iterations of different designs in Figma and would bring them to meetings with Elekta stakeholders to discuss what our plans were. 
+                        <p>  Once we had the minimum updates settled for the MIM Workflow Improvements, it was time to design the base of what would become the Elekta ONE MIM Workflow Dashboards! During this process I had the opportunity to collaborate with Elekta designers to learn about their design systems and brand guidelines. I worked with MIM's engineers to create a reskin of MIM for the partnership and then applied the new styles and colors to our Workflow sidebars. Below is an example of what these styles looked like.
                         </p>
                     </div>
                 </div>
@@ -181,7 +191,18 @@
         <div class="container-fluid padded my-auto d-flex justify-content-center">
             <div style="max-width: 1080px;" class="row row-limit padded-bottom">
                 <div class="col-12 padded-bottom">
-                    <img class="web-img" style="width: 100%;" src="images/elektadesigning1.png">
+                    <img class="web-img" style="width: 100%;" src="images/elektamimskin.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="row-limit container-fluid text-off-white my-auto d-flex justify-content-center">
+            <div class="row x-padded-xlarge">
+                <div class="y-padded-xlarge col-12" >
+                    <div  class="">
+                        <p>  Once our Workflow Sidebar framework and reskin of MIM was in a good standing, I had begun meeting with our clinical scientists daily to determine the requirements for the product. This process involved drawing out the user flows and creating mockups for what clinicians would perform inside of MIM. Additionally, there were weekly meetings with the team at Elekta to discuss our plans and collaborate on what features we would include. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -198,7 +219,7 @@
             <div class="row x-padded-xlarge">
                 <div class="y-padded-xlarge col-12" >
                     <div  class="">
-                        <p>  Elekta took the reign on usability testing for this partnership. After we recieved their usability testing results, I worked with our clinical scientists to iterate on the designs. We focused on redordering certain interactions to remove redundancies and lessen the amount of clicks needed. I also worked with the MIM Technical Communication team to use different strings to better match what Elekta's users are familiar with, that way certain actions and features were more recognizable.
+                        <p>  After we had the first prototype created, Elekta took the reign on usability testing. While I was not directly involved, I did get the opportunity to hear the official reporting of results and view their testing documents. I then made improvements to the designs based on the findings. We focused on redordering certain interactions to remove redundancies and lessen the amount of clicks needed. I also worked with the MIM Technical Communication team to use different strings to better match what Elekta's users are familiar with, that way certain actions and features were more recognizable.
                         </p>
                     </div>
                 </div>
